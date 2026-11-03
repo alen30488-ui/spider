@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Switch Lab — Websites, Telegram Bots &amp; Android App Development</title>
+<meta name="description" content="Switch Lab builds websites, Telegram bots, Mini Apps and Android apps end to end — plus security audits, improvements and bug fixing for existing projects.">
+<link rel="canonical" href="https://switchlab.dev/en/">
+<link rel="alternate" hreflang="ru" href="https://switchlab.dev/">
+<link rel="alternate" hreflang="en" href="https://switchlab.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#EEECF0">
+<meta name="color-scheme" content="light">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="Switch Lab">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Switch Lab">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:url" content="https://switchlab.dev/en/">
+<meta property="og:title" content="Switch Lab — websites, Telegram bots and Android apps">
+<meta property="og:description" content="We build websites, Telegram bots, Mini Apps and Android apps, audit their security and improve existing projects.">
+<meta property="og:image" content="https://switchlab.dev/assets/og/og-en.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Switch Lab — websites, Telegram bots and Android app development">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Switch Lab — websites, Telegram bots and Android apps">
+<meta name="twitter:description" content="We build websites, Telegram bots, Mini Apps and Android apps, audit their security and improve existing projects.">
+<meta name="twitter:image" content="https://switchlab.dev/assets/og/og-en.jpg">
+<link rel="alternate" type="application/rss+xml" title="Blog RSS feed" href="https://switchlab.dev/en/blog/rss.xml">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preload" href="../assets/fonts/onest-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/avif" imagesrcset="../assets/img/hero-devices-640.avif 640w, ../assets/img/hero-devices-960.avif 960w, ../assets/img/hero-devices-1099.avif 1099w" imagesizes="(max-width: 900px) 92vw, 54vw" fetchpriority="high">
+<link rel="stylesheet" href="../assets/css/styles.css?v=11ff742929">
+<script>document.documentElement.classList.add('js');window.__slRevealFallback=setTimeout(function(){document.documentElement.classList.add('no-reveal')},3500);(function(d,n){try{if(!n.webdriver&&!/bot|crawl|spider|slurp|google|lighthouse|pagespeed|gtmetrix|headless|preview/i.test(n.userAgent)&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&!sessionStorage.getItem('sl-pl')){sessionStorage.setItem('sl-pl','1');d.documentElement.classList.add('pl-on');var c=d.querySelector('meta[name="theme-color"]');if(c){c.setAttribute('data-c',c.content);c.content='#141418'}}}catch(e){}})(document,navigator)</script>
+<script src="../assets/js/main.js?v=d81b7e7c4d" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://switchlab.dev/#organization","name":"Switch Lab","url":"https://switchlab.dev/","logo":{"@type":"ImageObject","url":"https://switchlab.dev/assets/brand/logo-512.png","width":512,"height":512},"email":"hello@switchlab.dev","sameAs":["https://t.me/switchlab"],"image":"https://switchlab.dev/assets/og/og-en.jpg","description":"Switch Lab builds websites, Telegram bots, Mini Apps and Android apps end to end — plus security audits, improvements and bug fixing for existing projects.","knowsAbout":["website development","Telegram bot development","Telegram Mini App development","Android app development","website security audit","Telegram bot security audit","Telegram Mini App security audit","website and bot improvements","bug fixing","UI/UX design"],"contactPoint":[{"@type":"ContactPoint","contactType":"sales","email":"hello@switchlab.dev","url":"https://t.me/switchlab","availableLanguage":["Russian","English"]}]},{"@type":"WebSite","@id":"https://switchlab.dev/#website","url":"https://switchlab.dev/","name":"Switch Lab","inLanguage":["ru","en"],"publisher":{"@id":"https://switchlab.dev/#organization"}},{"@type":"WebPage","@id":"https://switchlab.dev/en/#webpage","url":"https://switchlab.dev/en/","name":"Switch Lab — Websites, Telegram Bots & Android App Development","description":"Switch Lab builds websites, Telegram bots, Mini Apps and Android apps end to end — plus security audits, improvements and bug fixing for existing projects.","inLanguage":"en","isPartOf":{"@id":"https://switchlab.dev/#website"},"about":{"@id":"https://switchlab.dev/#organization"},"primaryImageOfPage":{"@type":"ImageObject","url":"https://switchlab.dev/assets/og/og-en.jpg","width":1200,"height":630}},{"@type":"ItemList","@id":"https://switchlab.dev/en/#services","name":"Services & pricing","itemListElement":[{"@type":"ListItem","position":1,"url":"https://switchlab.dev/en/services/website-development/","name":"Website development"},{"@type":"ListItem","position":2,"url":"https://switchlab.dev/en/services/telegram-bot-development/","name":"Telegram bots"},{"@type":"ListItem","position":3,"url":"https://switchlab.dev/en/services/telegram-mini-apps/","name":"Telegram Mini Apps"},{"@type":"ListItem","position":4,"url":"https://switchlab.dev/en/services/android-app-development/","name":"Android apps"},{"@type":"ListItem","position":5,"url":"https://switchlab.dev/en/services/security-audit/","name":"Security audit"},{"@type":"ListItem","position":6,"url":"https://switchlab.dev/en/services/support-and-improvements/","name":"Improvements & support"}]},{"@type":"FAQPage","@id":"https://switchlab.dev/en/#faq","inLanguage":"en","mainEntity":[{"@type":"Question","name":"How much does development cost?","acceptedAnswer":{"@type":"Answer","text":"A website starts from ₽50,000, a Telegram bot from ₽30,000, a Mini App from ₽120,000, an Android app from ₽300,000 and a security audit from ₽25,000. The exact price depends on the scope and complexity: after a short brief we prepare an estimate with a fixed price and timeline — no hidden fees. See formats and prices on the services and pricing page."}},{"@type":"Question","name":"How long does it take?","acceptedAnswer":{"@type":"Answer","text":"A landing page takes from 2 weeks, a Telegram bot from 1 week, a Mini App from 2 weeks, an Android app from 4 weeks. A security audit takes from 3 days. We fix a detailed plan with milestones in the contract."}},{"@type":"Question","name":"Do you work under a contract?","acceptedAnswer":{"@type":"Answer","text":"Yes. We work under an official contract with milestone payments. After delivery you receive the source code and full rights to the product."}},{"@type":"Question","name":"Do you support projects after launch?","acceptedAnswer":{"@type":"Answer","text":"Yes, we offer technical support and further development: updates, monitoring, backups and new features."}},{"@type":"Question","name":"Can you improve an existing project?","acceptedAnswer":{"@type":"Answer","text":"Absolutely — even if someone else built it. We’ll dig into the code, fix bugs and propose a plan for improvements, a redesign or optimization."}},{"@type":"Question","name":"What does a security audit include?","acceptedAnswer":{"@type":"Answer","text":"We review the code, backend, authentication and payment flows of your website, bot or Mini App. You get a report with the vulnerabilities found, their risk level and how to fix them. We work under an NDA and can fix the issues right away."}},{"@type":"Question","name":"How do we get started?","acceptedAnswer":{"@type":"Answer","text":"Message us on Telegram or leave a request on the website. We’ll ask a few questions, schedule a call and propose a solution."}}]}]}</script>
+</head>
+<body class="page-home" id="top">
+<div class="pl" data-preloader hidden aria-hidden="true" data-nosnippet>
+<div class="pl__zoom">
+<span class="pl__aura"></span>
+<svg class="pl__mark" viewBox="0 0 40 40" focusable="false">
+<defs>
+<linearGradient id="pl-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3b41"/><stop offset=".5" stop-color="#141417"/><stop offset="1" stop-color="#040405"/></linearGradient>
+<linearGradient id="pl-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".42"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient>
+<radialGradient id="pl-knob" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#e2ffec"/><stop offset=".42" stop-color="#74e6a5"/><stop offset="1" stop-color="#1f9d57"/></radialGradient>
+<linearGradient id="pl-s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#d4d7dd"/></linearGradient>
+<filter id="pl-blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2"/></filter>
+<filter id="pl-soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation=".7"/></filter>
+</defs>
+<rect width="40" height="40" rx="12" fill="url(#pl-bg)"/>
+<rect x=".5" y=".5" width="39" height="39" rx="11.5" fill="none" stroke="url(#pl-rim)"/>
+<g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path class="s-ghost" d="M25 11H16.5a4.5 4.5 0 0 0 0 9h7a4.5 4.5 0 0 1 0 9H12.5"/>
+<path class="s-line" d="M25 11H16.5a4.5 4.5 0 0 0 0 9h7a4.5 4.5 0 0 1 0 9H12.5" pathLength="100" stroke="url(#pl-s)"/>
+<path class="s-head" d="M25 11H16.5a4.5 4.5 0 0 0 0 9h7a4.5 4.5 0 0 1 0 9H12.5" pathLength="100" stroke="#a8ffcf" filter="url(#pl-soft)"/>
+</g>
+<circle class="k-glow" cx="27" cy="11" r="6" fill="#5fe39a" filter="url(#pl-blur)"/>
+<circle class="k-dot" cx="27" cy="11" r="4.6" fill="url(#pl-knob)"/>
+</svg>
+<div class="pl__text"><span class="pl__word"><i style="--i:0" data-t="S"></i><i style="--i:1" data-t="w"></i><i style="--i:2" data-t="i"></i><i style="--i:3" data-t="t"></i><i style="--i:4" data-t="c"></i><i style="--i:5" data-t="h"></i><i style="--i:6" data-t=" "></i><i style="--i:7" data-t="L"></i><i style="--i:8" data-t="a"></i><i style="--i:9" data-t="b"></i></span><span class="pl__tag" data-t="Websites · Telegram bots · Android apps"></span></div>
+</div>
+<span class="pl__rim"></span>
+<span class="pl__bar"></span>
+</div>
+<a class="skip-link" href="#main">Skip to content</a>
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+<defs>
+<linearGradient id="slg-bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3b41"/><stop offset=".5" stop-color="#141417"/><stop offset="1" stop-color="#040405"/></linearGradient>
+<linearGradient id="slg-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".16"/></linearGradient>
+<radialGradient id="slg-knob" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#e2ffec"/><stop offset=".42" stop-color="#74e6a5"/><stop offset="1" stop-color="#1f9d57"/></radialGradient>
+<linearGradient id="slg-s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#d4d7dd"/></linearGradient>
+<filter id="slg-glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<symbol id="logo-mark" viewBox="0 0 40 40"><rect width="40" height="40" rx="12" fill="url(#slg-bg)"/><rect x=".5" y=".5" width="39" height="39" rx="11.5" fill="none" stroke="url(#slg-rim)"/><path d="M25 11H16.5a4.5 4.5 0 0 0 0 9h7a4.5 4.5 0 0 1 0 9H12.5" fill="none" stroke="url(#slg-s)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="27" cy="11" r="6" fill="#5fe39a" opacity=".55" filter="url(#slg-glow)"/><circle cx="27" cy="11" r="4.6" fill="url(#slg-knob)"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13.5 6.5 19 12l-5.5 5.5"/></symbol>
+<symbol id="i-arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M10.5 6.5 5 12l5.5 5.5"/></symbol>
+<symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6.5 10.5 12 5l5.5 5.5"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.6v12.8c0 .7.8 1.2 1.4.8l10-6.4a1 1 0 0 0 0-1.6l-10-6.4A.9.9 0 0 0 8 5.6z"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13.4 2.5 5.3 13.3a.7.7 0 0 0 .6 1.1h5.5l-1 7.1 8.1-10.8a.7.7 0 0 0-.6-1.1h-5.5z"/></symbol>
+<symbol id="i-diamond" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 4.5h10.8L21 9.4 12 20.5 3 9.4z"/><path d="M3 9.4h18M9.6 4.5 8.2 9.4 12 20.5l3.8-11.1-1.4-4.9"/></symbol>
+<symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="3.2" y="13.5" width="4" height="7" rx="1.2"/><rect x="10" y="9.5" width="4" height="11" rx="1.2"/><rect x="16.8" y="4" width="4" height="16.5" rx="1.2"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.8 4.6 5.7v5.8c0 4.5 3 8.3 7.4 9.7 4.4-1.4 7.4-5.2 7.4-9.7V5.7z"/><path d="m8.7 12.1 2.3 2.3 4.4-4.6"/></symbol>
+<symbol id="i-sparkle" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.5c.9 5.9 3.6 9.1 10 10.5-6.4 1.4-9.1 4.6-10 10.5-.9-5.9-3.6-9.1-10-10.5 6.4-1.4 9.1-4.6 10-10.5z"/></symbol>
+<symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2.5 2.8 9.6c-.8.3-.8 1.4 0 1.7l6.5 2.5 2.5 6.5c.3.8 1.4.8 1.7 0z"/><path d="M21.5 2.5 9.3 13.8"/></symbol>
+<symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M20.7 3.4 2.9 10.3c-1.2.5-1.2 1.2-.2 1.5l4.6 1.4 1.8 5.4c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.2-2.1 4.5 3.3c.8.5 1.4.2 1.6-.8l3-14c.3-1.2-.5-1.8-1.5-1.4zM8.6 13.1l8.7-5.5c.4-.3.8-.1.5.2l-7.3 6.6-.3 3.1z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3.5"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5.5v13M5.5 12h13"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.3 4.2L19 7.3"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.4L12 17.4l-5.8 3 1.1-6.4-4.7-4.6 6.5-.9z"/></symbol>
+<symbol id="i-quote" viewBox="0 0 24 24"><path fill="currentColor" d="M10 6.2C6.6 7.4 4.8 10 4.8 13.8V18H10v-5.2H7.6c.1-2 1-3.4 2.9-4.2zm9.2 0c-3.4 1.2-5.2 3.8-5.2 7.6V18h5.2v-5.2h-2.4c.1-2 1-3.4 2.9-4.2z"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.3-4.3"/></symbol>
+<symbol id="i-pen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 20H21"/><path d="M16.6 3.6a2.2 2.2 0 0 1 3.1 3.1L7.4 19l-4.1 1 1-4.1z"/></symbol>
+<symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7.5-4.5 4.5L8 16.5M16 7.5l4.5 4.5-4.5 4.5M13.6 4.5l-3.2 15"/></symbol>
+<symbol id="i-rocket" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16.2c-1.4 1.2-2 4.8-2 4.8s3.6-.6 4.8-2c.7-.8.7-2-.1-2.7a2 2 0 0 0-2.7-.1z"/><path d="m12 15-3-3a20 20 0 0 1 2-3.9A12.6 12.6 0 0 1 21 3c0 2.6-.8 7.2-5.8 10.6A20 20 0 0 1 12 15z"/><path d="M9 12H4.5s.5-2.9 1.9-3.9C8 7.1 11 8.1 11 8.1M12 15v4.5s2.9-.5 3.9-1.9c1-1.6 0-4.6 0-4.6"/></symbol>
+<symbol id="i-plug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21.5V17M9 7.5V2.5M15 7.5V2.5"/><path d="M18 7.5v4.5a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5V7.5z"/></symbol>
+<symbol id="i-lifebuoy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.8"/><path d="m5.6 5.6 3.7 3.7M14.7 14.7l3.7 3.7M14.7 9.3l3.7-3.7M5.6 18.4l3.7-3.7"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+<symbol id="i-bot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="8" width="15" height="11" rx="4"/><path d="M12 4.5V8"/><circle cx="12" cy="3.6" r=".9" fill="currentColor"/><circle cx="9.3" cy="13.4" r="1.3" fill="currentColor" stroke="none"/><circle cx="14.7" cy="13.4" r="1.3" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-apps" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/><path d="M17 2.4 21.6 7 17 11.6 12.4 7z"/></symbol>
+<symbol id="i-bug" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 8.6V7.5a3 3 0 0 1 6 0v1.1"/><rect x="7" y="8.6" width="10" height="12" rx="5"/><path d="M12 12.6v7.9M7 13.4H3.5M20.5 13.4H17M7.3 17.4l-3 1.8M16.7 17.4l3 1.8M7.6 10.2 5 8.2M16.4 10.2 19 8.2"/></symbol>
+<symbol id="i-toggles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.8" y="4.2" width="18.4" height="7" rx="3.5"/><circle cx="17.7" cy="7.7" r="1.9" fill="currentColor" stroke="none"/><rect x="2.8" y="12.8" width="18.4" height="7" rx="3.5"/><circle cx="6.3" cy="16.3" r="1.9"/></symbol>
+<symbol id="i-idea" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.2 17.6h5.6M10 20.6h4"/><path d="M12 3.2a6.1 6.1 0 0 0-3.6 11c.6.5.9 1.2.9 1.9v1.5h5.4v-1.5c0-.7.3-1.4.9-1.9A6.1 6.1 0 0 0 12 3.2z"/></symbol>
+<symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 5-13.5 15-14-.4 9.6-5.8 14.7-13.5 14.7"/><path d="M5 19c2.6-3.6 5.4-6 8.6-7.8"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10.2 13.8a4.2 4.2 0 0 0 6 0l3.1-3.1a4.2 4.2 0 0 0-6-6l-1.4 1.4"/><path d="M13.8 10.2a4.2 4.2 0 0 0-6 0l-3.1 3.1a4.2 4.2 0 0 0 6 6l1.4-1.4"/></symbol>
+<symbol id="i-vk" viewBox="0 0 24 24"><path fill="currentColor" d="M12.8 17.6c-5.7 0-9-3.9-9.1-10.4h2.9c.1 4.8 2.2 6.8 3.8 7.2V7.2h2.7v4.1c1.6-.2 3.3-2 3.9-4.1h2.7c-.4 2.5-2.3 4.3-3.6 5.1 1.3.6 3.4 2.3 4.2 5.3h-3c-.6-2-2.2-3.5-4.2-3.7v3.7z"/></symbol>
+<symbol id="i-rss" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 11a8 8 0 0 1 8 8M5 5a14 14 0 0 1 14 14"/><circle cx="6" cy="18" r="1.4" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8.6 3.5H6.2A2.2 2.2 0 0 0 4 5.8c.3 8 6.2 13.9 14.2 14.2a2.2 2.2 0 0 0 2.3-2.2v-2.4l-3.6-1.6-1.8 1.8a11 11 0 0 1-5-5l1.8-1.8z"/></symbol>
+</svg>
+<header class="header" data-header>
+<div class="container header__inner">
+<a class="logo" href="#top" aria-label="Switch Lab — home"><svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><use href="#logo-mark"/></svg><span class="logo__text" aria-hidden="true">Switch Lab</span></a>
+<nav class="nav" aria-label="Main navigation"><ul class="nav__list"><li><a class="nav__link" href="#services" data-nav="services">Services</a></li><li><a class="nav__link" href="#about" data-nav="about">About</a></li><li><a class="nav__link" href="#portfolio" data-nav="portfolio">Portfolio</a></li><li><a class="nav__link" href="#process" data-nav="process">How we work</a></li><li><a class="nav__link" href="#reviews" data-nav="reviews">Reviews</a></li><li><a class="nav__link" href="#blog" data-nav="blog">Blog</a></li><li><a class="nav__link" href="#brief" data-nav="brief">Brief</a></li><li><a class="nav__link" href="#contact" data-nav="contact">Contact</a></li></ul></nav>
+<div class="header__actions">
+<div class="lang" role="group" aria-label="Choose language"><a class="lang__opt" href="../" hreflang="ru" lang="ru" data-lang-link="ru" aria-label="Русская версия">RU</a><a class="lang__opt is-active" href="./" hreflang="en" lang="en" data-lang-link="en" aria-label="English version" aria-current="true">EN</a></div>
+<a class="btn btn--dark btn--sm header__cta" href="#contact" data-open="form">Discuss a project<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+<button class="burger" type="button" aria-expanded="false" aria-controls="mmenu" aria-label="Open menu" data-label-open="Open menu" data-label-close="Close menu" data-burger><span></span><span></span></button>
+</div>
+</div>
+</header>
+<div class="mmenu" id="mmenu" data-mmenu inert>
+<div class="container mmenu__inner">
+<nav aria-label="Main navigation"><ul class="mmenu__list"><li><a class="mmenu__link" href="#services"><span class="mmenu__num">01</span>Services<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#about"><span class="mmenu__num">02</span>About<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#portfolio"><span class="mmenu__num">03</span>Portfolio<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#process"><span class="mmenu__num">04</span>How we work<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#reviews"><span class="mmenu__num">05</span>Reviews<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#blog"><span class="mmenu__num">06</span>Blog<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#brief"><span class="mmenu__num">07</span>Brief<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li><li><a class="mmenu__link" href="#contact"><span class="mmenu__num">08</span>Contact<svg class="ico mmenu__arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></li></ul></nav>
+<div class="mmenu__foot">
+<a class="btn btn--dark btn--lg mmenu__cta" href="#contact" data-open="form">Discuss a project<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+<div class="mmenu__row">
+<div class="mmenu__contacts"><a href="https://t.me/switchlab" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tg"/></svg>Telegram</a><a href="mailto:hello@switchlab.dev"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>hello@switchlab.dev</a></div>
+<div class="lang lang--menu" role="group" aria-label="Choose language"><a class="lang__opt" href="../" hreflang="ru" lang="ru" data-lang-link="ru" aria-label="Русская версия">RU</a><a class="lang__opt is-active" href="./" hreflang="en" lang="en" data-lang-link="en" aria-label="English version" aria-current="true">EN</a></div>
+</div>
+</div>
+</div>
+</div>
+<main id="main" tabindex="-1">
+<section class="hero" id="hero" aria-labelledby="hero-title">
+<div class="hero__bg" aria-hidden="true"><picture><source type="image/avif" srcset="../assets/img/silk-800.avif 800w, ../assets/img/silk-1376.avif 1376w" sizes="100vw"><source type="image/webp" srcset="../assets/img/silk-800.webp 800w, ../assets/img/silk-1376.webp 1376w" sizes="100vw"><img src="../assets/img/silk-1376.webp" alt="" width="1376" height="768" loading="eager" decoding="async" class="hero__silk"></picture></div>
+<div class="container hero__inner">
+<div class="hero__content">
+<p class="badge" data-reveal><span class="badge__dot" aria-hidden="true"></span>Online 24/7</p>
+<h1 class="hero__title" id="hero-title" data-reveal style="--d:1">We build websites, Telegram bots and <span class="accent">Android</span> apps</h1>
+<p class="hero__lead" data-reveal style="--d:2">Modern solutions for your business, built with a focus on results</p>
+<div class="hero__actions" data-reveal style="--d:3">
+<a class="btn btn--dark btn--lg" href="#contact" data-open="form">Discuss a project<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+<a class="play" href="#services"><span class="play__circle" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-play"/></svg></span><span class="play__text">Learn more</span></a>
+</div>
+</div>
+<div class="hero__visual" data-parallax>
+<div class="hero__stage">
+<span class="hero__glow" aria-hidden="true"></span>
+<picture class="hero__devices"><source type="image/avif" srcset="../assets/img/hero-devices-640.avif 640w, ../assets/img/hero-devices-960.avif 960w, ../assets/img/hero-devices-1099.avif 1099w" sizes="(max-width: 900px) 92vw, 54vw"><source type="image/webp" srcset="../assets/img/hero-devices-640.webp 640w, ../assets/img/hero-devices-960.webp 960w, ../assets/img/hero-devices-1099.webp 1099w" sizes="(max-width: 900px) 92vw, 54vw"><img src="../assets/img/hero-devices-960.webp" alt="A laptop with a code symbol, a smartphone with the Telegram icon and the Android robot" width="1099" height="830" loading="eager" decoding="async" fetchpriority="high"></picture>
+<span class="hero__crystal" aria-hidden="true"><picture><source type="image/avif" srcset="../assets/img/crystal-180.avif 180w, ../assets/img/crystal-360.avif 360w" sizes="(max-width: 900px) 15vw, 104px"><source type="image/webp" srcset="../assets/img/crystal-180.webp 180w, ../assets/img/crystal-360.webp 360w" sizes="(max-width: 900px) 15vw, 104px"><img src="../assets/img/crystal-360.webp" alt="" width="360" height="389" loading="eager" decoding="async"></picture></span>
+<svg class="hero__spark hero__spark--a" aria-hidden="true" focusable="false"><use href="#i-sparkle"/></svg>
+<svg class="hero__spark hero__spark--b" aria-hidden="true" focusable="false"><use href="#i-sparkle"/></svg>
+</div>
+</div>
+</div>
+<div class="container">
+<ul class="features glass" data-reveal><li class="feature"><span class="feature__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bolt"/></svg></span><span class="feature__text">Fast<br>delivery</span></li><li class="feature"><span class="feature__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-diamond"/></svg></span><span class="feature__text">Premium<br>quality</span></li><li class="feature"><span class="feature__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg></span><span class="feature__text">Focused<br>on results</span></li><li class="feature"><span class="feature__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span><span class="feature__text">Transparent<br>terms</span></li></ul>
+</div>
+</section>
+<section class="section services" id="services" aria-labelledby="services-title">
+<div class="container">
+<div class="services__intro" data-reveal>
+<p class="tag"><svg class="tag__spark" aria-hidden="true" focusable="false"><use href="#i-sparkle"/></svg><span>What we offer</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="services-title">End-to-end development of digital products</h2>
+<p class="section-lead">From idea to finished product — we take care of the entire development cycle</p>
+<a class="btn btn--dark" href="services/" data-open="services">All services<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+</div>
+<ul class="svc-cards"><li class="svc-card svc-card--svc-web" data-reveal style="--d:1">
+<div class="svc-card__media"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><img src="../assets/img/svc-web-709.webp" alt="Browser window with a cursor" width="709" height="670" loading="lazy" decoding="async" class="svc-card__img"></picture></div>
+<div class="svc-card__body">
+<h3 class="svc-card__title"><a class="svc-card__link" href="services/website-development/">Websites<br>& web services</a></h3>
+<p class="svc-card__text">Stylish, fast websites that convert</p>
+</div>
+<span class="circle-btn svc-card__arrow" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</li><li class="svc-card svc-card--svc-tg" data-reveal style="--d:2">
+<div class="svc-card__media"><picture><source type="image/avif" srcset="../assets/img/svc-tg-407.avif 407w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><source type="image/webp" srcset="../assets/img/svc-tg-407.webp 407w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><img src="../assets/img/svc-tg-407.webp" alt="Telegram icon in a glass cube" width="407" height="392" loading="lazy" decoding="async" class="svc-card__img"></picture></div>
+<div class="svc-card__body">
+<h3 class="svc-card__title"><a class="svc-card__link" href="services/telegram-bot-development/">Telegram <br class="br-d">bots</a></h3>
+<p class="svc-card__text">Smart bots for automation and sales</p>
+</div>
+<span class="circle-btn svc-card__arrow" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</li><li class="svc-card svc-card--svc-miniapp" data-reveal style="--d:3">
+<div class="svc-card__media"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><img src="../assets/img/svc-miniapp-407.webp" alt="App tiles on a glass card" width="407" height="392" loading="lazy" decoding="async" class="svc-card__img"></picture></div>
+<div class="svc-card__body">
+<span class="svc-new"><svg class="svc-new__ico" aria-hidden="true" focusable="false"><use href="#i-sparkle"/></svg>New</span><h3 class="svc-card__title"><a class="svc-card__link" href="services/telegram-mini-apps/">Telegram <br class="br-d">Mini Apps</a></h3>
+<p class="svc-card__text">Apps inside Telegram — no install needed</p>
+</div>
+<span class="circle-btn svc-card__arrow" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</li><li class="svc-card svc-card--svc-android" data-reveal style="--d:4">
+<div class="svc-card__media"><picture><source type="image/avif" srcset="../assets/img/svc-android-354.avif 354w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><source type="image/webp" srcset="../assets/img/svc-android-354.webp 354w" sizes="(max-width: 640px) 96px, (max-width: 1100px) 180px, 300px"><img src="../assets/img/svc-android-354.webp" alt="The Android robot" width="354" height="438" loading="lazy" decoding="async" class="svc-card__img"></picture></div>
+<div class="svc-card__body">
+<h3 class="svc-card__title"><a class="svc-card__link" href="services/android-app-development/">Android <br class="br-d">apps</a></h3>
+<p class="svc-card__text">Clear and convenient mobile apps</p>
+</div>
+<span class="circle-btn svc-card__arrow" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</li></ul>
+<div class="fit" id="existing" data-fit data-have="bot" data-need="audit">
+<div class="fit__head" data-reveal>
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>For existing projects</span><span class="tag__end" aria-hidden="true"></span></p>
+<h3 class="sr-only" id="services-more">Already have a website or a bot? Find the right service</h3>
+</div>
+<div class="fit__grid">
+<p class="fit__phrase" data-reveal><span class="fit__w" style="--i:0">We</span> <span class="fit__w" style="--i:1">already</span> <span class="fit__w" style="--i:2">have</span> <span class="fit__w" style="--i:3">a</span> <span class="fit__opts fit__opts--have" role="radiogroup" aria-label="What you already have"><label class="fit__opt" style="--i:4"><input type="radio" name="fit-have" value="web"><span class="fit__word">website</span></label> <span class="fit__sep" aria-hidden="true" style="--i:5">/</span> <label class="fit__opt" style="--i:6"><input type="radio" name="fit-have" value="bot" checked><span class="fit__word">Telegram bot</span></label> <span class="fit__sep" aria-hidden="true" style="--i:7">/</span> <label class="fit__opt" style="--i:8"><input type="radio" name="fit-have" value="miniapp"><span class="fit__word">Mini App</span></label></span> <span class="fit__w" style="--i:9">and</span> <span class="fit__w" style="--i:10">need</span> <span class="fit__w" style="--i:11">to</span> <span class="fit__opts fit__opts--need" role="radiogroup" aria-label="What needs to be done"><label class="fit__opt" style="--i:12"><input type="radio" name="fit-need" value="audit" checked><span class="fit__word">audit its security</span></label> <span class="fit__sep" aria-hidden="true" style="--i:13">/</span> <label class="fit__opt" style="--i:14"><input type="radio" name="fit-need" value="improve"><span class="fit__word">improve it</span></label> <span class="fit__sep" aria-hidden="true" style="--i:15">/</span> <label class="fit__opt" style="--i:16"><input type="radio" name="fit-need" value="fix"><span class="fit__word">fix bugs</span></label></span><span class="fit__w" style="--i:17">.</span><span class="fit__caret" aria-hidden="true"></span></p>
+<p class="fit__hint" data-reveal style="--d:3"><svg class="fit__arrow" viewBox="0 0 44 40" aria-hidden="true" focusable="false"><path pathLength="1" d="M6 36.5C5 23 13 11.5 31 7.5"/><path pathLength="1" d="M23.5 3.5 32 7.2l-5 7.6"/></svg><span>Pick an option — we’ll match the right service</span></p>
+<ul class="fit__facts" data-reveal style="--d:4"><li><b>NDA</b><span>A contract, an NDA and careful handling of access</span></li><li><b>Any codebase</b><span>Even if someone else built it</span></li><li><b>From 1 day</b><span>Urgent failures come first</span></li></ul>
+<div class="fit__stage" data-reveal style="--d:2">
+<span class="fit__aura" aria-hidden="true"></span>
+<div class="fit__card">
+<div class="fit__media" aria-hidden="true">
+<span class="fit__pic fit__pic--web" data-have="web"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="(max-width: 760px) 96px, 150px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="(max-width: 760px) 96px, 150px"><img src="../assets/img/svc-web-709.webp" alt="" width="709" height="670" loading="lazy" decoding="async"></picture></span>
+<span class="fit__pic fit__pic--bot is-active" data-have="bot"><picture><source type="image/avif" srcset="../assets/img/svc-tg-407.avif 407w" sizes="(max-width: 760px) 96px, 150px"><source type="image/webp" srcset="../assets/img/svc-tg-407.webp 407w" sizes="(max-width: 760px) 96px, 150px"><img src="../assets/img/svc-tg-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></span>
+<span class="fit__pic fit__pic--miniapp" data-have="miniapp"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="(max-width: 760px) 96px, 150px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="(max-width: 760px) 96px, 150px"><img src="../assets/img/svc-miniapp-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></span>
+<span class="fit__badge"><span class="fit__glyph fit__glyph--audit is-active" data-need="audit"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span><span class="fit__glyph fit__glyph--improve" data-need="improve"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-toggles"/></svg></span><span class="fit__glyph fit__glyph--fix" data-need="fix"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bug"/></svg></span></span>
+</div>
+<p class="fit__kicker"><span class="fit__ping" aria-hidden="true"></span>Best fit</p>
+<div class="fit__panels">
+<div class="fit__panel" data-combo="web-audit" data-need="audit" role="group" aria-labelledby="fit-web-audit">
+<h4 class="fit__title" id="fit-web-audit">Website security audit</h4>
+<p class="fit__text">We review the code, server and configuration of your custom website and find vulnerabilities before anyone exploits them.</p>
+<p class="fit__label"><span>What we check</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>OWASP Top 10 checks: injections, XSS, CSRF</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Authentication, sessions and access to other users’ data</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Forms, file uploads, APIs and payments</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Server configuration, HTTPS and headers</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/security-audit/#audit-web">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="audit" data-message="We already have a website and need to audit its security.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel is-active" data-combo="bot-audit" data-need="audit" role="group" aria-labelledby="fit-bot-audit">
+<h4 class="fit__title" id="fit-bot-audit">Telegram bot audit</h4>
+<p class="fit__text">We check whether someone could steal the token, bypass payments, get into the admin panel or access user data.</p>
+<p class="fit__label"><span>What we check</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Token storage and webhook protection</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Admin permissions and access to commands</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Payment tampering and bypasses</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Protection from flooding and data leaks</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/security-audit/#audit-bot">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="audit" data-message="We already have a Telegram bot and need to audit its security.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="miniapp-audit" data-need="audit" role="group" aria-labelledby="fit-miniapp-audit">
+<h4 class="fit__title" id="fit-miniapp-audit">Telegram Mini App audit</h4>
+<p class="fit__text">We review the whole stack — the UI, the bot and the backend — with a focus on authentication and payments.</p>
+<p class="fit__label"><span>What we check</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Server-side initData signature validation</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>API protection, CORS and CSP</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Tampering with user data and prices</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--scan" aria-hidden="true"><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Data exchange between the Mini App, bot and server</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/security-audit/#audit-miniapp">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="audit" data-message="We already have a Mini App and need to audit its security.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="web-improve" data-need="improve" role="group" aria-labelledby="fit-web-improve">
+<h4 class="fit__title" id="fit-web-improve">Website improvements</h4>
+<p class="fit__text">We add the features you need and clean up the code — even if someone else built the site.</p>
+<p class="fit__label"><span>What we do</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>New pages and features</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Online payments, CRM and third-party APIs</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Faster loading</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Redesign and UX improvements</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#improve">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a website and need to improve it.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="bot-improve" data-need="improve" role="group" aria-labelledby="fit-bot-improve">
+<h4 class="fit__title" id="fit-bot-improve">Telegram bot improvements</h4>
+<p class="fit__text">We add flows and integrations, set up broadcasts and move the bot to reliable hosting.</p>
+<p class="fit__label"><span>What we do</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>New commands and flows</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Payments, CRM and Google Sheets</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Broadcasts, analytics and an admin panel</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Migration to reliable hosting</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#improve">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a Telegram bot and need to improve it.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="miniapp-improve" data-need="improve" role="group" aria-labelledby="fit-miniapp-improve">
+<h4 class="fit__title" id="fit-miniapp-improve">Mini App improvements</h4>
+<p class="fit__text">We add screens and features, connect payments and speed up loading.</p>
+<p class="fit__label"><span>What we do</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>New screens and features</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Payments with Telegram Stars</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Integration with the bot, CRM and backend</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--tgl" aria-hidden="true"></span><span>Faster loading</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#improve">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a Mini App and need to improve it.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="web-fix" data-need="fix" role="group" aria-labelledby="fit-web-fix">
+<h4 class="fit__title" id="fit-web-fix">Website bug fixing</h4>
+<p class="fit__text">We find the root cause and remove it, not just the symptoms. Urgent failures come first.</p>
+<p class="fit__label"><span>What we fix</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Log-based diagnostics</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Urgent fixes for critical failures</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Forms, payments and the mobile version</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Tests so the bug doesn’t come back</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#bugfix">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a website and need to fix bugs.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="bot-fix" data-need="fix" role="group" aria-labelledby="fit-bot-fix">
+<h4 class="fit__title" id="fit-bot-fix">Bot bug fixing</h4>
+<p class="fit__text">Is your bot silent, crashing or replying out of place? We’ll find the cause and fix it.</p>
+<p class="fit__label"><span>What we fix</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Crashes and stuck webhooks</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Errors in flows and payments</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Telegram API limits and timeouts</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Monitoring, so you hear about failures first</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#bugfix">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a Telegram bot and need to fix bugs.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+<div class="fit__panel" data-combo="miniapp-fix" data-need="fix" role="group" aria-labelledby="fit-miniapp-fix">
+<h4 class="fit__title" id="fit-miniapp-fix">Mini App bug fixing</h4>
+<p class="fit__text">Blank screens, sign-in failures or bugs on specific devices — we’ll find and fix them.</p>
+<p class="fit__label"><span>What we fix</span><span class="fit__bars" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i></span></p>
+<ul class="fit__list"><li class="fit__item" style="--k:0"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Blank screens and loading errors</span></li><li class="fit__item" style="--k:1"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Sign-in and initData failures</span></li><li class="fit__item" style="--k:2"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Bugs on iOS, Android and Desktop</span></li><li class="fit__item" style="--k:3"><span class="fit__mark fit__mark--fix" aria-hidden="true"><svg class="ico fit__x" aria-hidden="true" focusable="false"><use href="#i-close"/></svg><svg class="ico fit__ok" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span>Tests and error monitoring</span></li></ul>
+<div class="fit__foot">
+<span class="fit__term"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span>
+<span class="fit__actions"><a class="fit__more" href="services/support-and-improvements/#bugfix">Details</a><a class="btn btn--dark btn--sm fit__cta" href="#contact" data-open="form" data-type="fix" data-message="We already have a Mini App and need to fix bugs.">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="sr-only" aria-live="polite" data-fit-live></p>
+</div>
+</div>
+</section>
+<section class="section about" id="about" aria-labelledby="about-title">
+<div class="container container--wide">
+<div class="about__card" data-reveal>
+<picture class="about__bg"><source type="image/avif" srcset="../assets/img/why-scene-800.avif 800w, ../assets/img/why-scene-1200.avif 1200w, ../assets/img/why-scene-1584.avif 1584w" sizes="(max-width: 1440px) 100vw, 1400px"><source type="image/webp" srcset="../assets/img/why-scene-800.webp 800w, ../assets/img/why-scene-1200.webp 1200w, ../assets/img/why-scene-1584.webp 1584w" sizes="(max-width: 1440px) 100vw, 1400px"><img src="../assets/img/why-scene-1200.webp" alt="A black glass cube with a glowing green code symbol on a rock against a cloudy sky" width="1584" height="672" loading="lazy" decoding="async"></picture>
+<div class="about__content">
+<p class="tag tag--dark"><span class="tag__dot" aria-hidden="true"></span><span>Why us?</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2 about__title" id="about-title"><span class="about__dim">Because we deliver</span> <span class="about__bright">solutions, not just code</span></h2>
+<p class="about__text">We dive deep into your business, suggest the best solutions and polish every project to perfection. Our focus is quality, results and long-term partnership.</p>
+<a class="btn btn--light" href="#process">Learn more<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+</div>
+<ul class="about__stats"><li class="stat"><b class="stat__value" data-count="3" data-suffix="+">3+</b><span class="stat__label">years of experience</span></li><li class="stat"><b class="stat__value" data-count="50" data-suffix="+">50+</b><span class="stat__label">projects delivered</span></li><li class="stat"><b class="stat__value" data-count="100" data-suffix="%">100%</b><span class="stat__label">satisfied clients</span></li></ul>
+</div>
+</div>
+</section>
+<section class="section works" id="portfolio" aria-labelledby="works-title">
+<div class="container">
+<div class="works__head" data-reveal>
+<div class="works__intro">
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>Portfolio</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="works-title">Our work</h2>
+<p class="section-lead">Websites, Telegram bots and Android apps that already drive our clients' business</p>
+</div>
+<div class="works__filters" role="group" aria-label="Filter projects"><button class="works__filter" type="button" data-filter="all" aria-pressed="true">All<span class="works__n">7</span></button><button class="works__filter" type="button" data-filter="web" aria-pressed="false">Websites & web apps<span class="works__n">3</span></button><button class="works__filter" type="button" data-filter="bot" aria-pressed="false">Telegram bots<span class="works__n">2</span></button><button class="works__filter" type="button" data-filter="android" aria-pressed="false">Android<span class="works__n">2</span></button></div>
+</div>
+<ul class="works__grid" data-works>
+<li class="wk wk--feat" data-cat="web" data-reveal style="--d:0">
+<article class="wk__card">
+<div class="wk__media"><picture><source media="(max-width: 760px)" type="image/avif" srcset="../assets/img/work-lumi-600.avif 600w, ../assets/img/work-lumi-960.avif 960w, ../assets/img/work-lumi-1600.avif 1600w" sizes="calc(100vw - 32px)"><source media="(max-width: 760px)" type="image/webp" srcset="../assets/img/work-lumi-600.webp 600w, ../assets/img/work-lumi-960.webp 960w, ../assets/img/work-lumi-1600.webp 1600w" sizes="calc(100vw - 32px)"><source type="image/avif" srcset="../assets/img/work-lumi-wide-1200.avif 1200w, ../assets/img/work-lumi-wide-1800.avif 1800w, ../assets/img/work-lumi-wide-2400.avif 2400w" sizes="(max-width: 1400px) 94vw, 1320px"><source type="image/webp" srcset="../assets/img/work-lumi-wide-1200.webp 1200w, ../assets/img/work-lumi-wide-1800.webp 1800w, ../assets/img/work-lumi-wide-2400.webp 2400w" sizes="(max-width: 1400px) 94vw, 1320px"><img src="../assets/img/work-lumi-wide-1800.webp" alt="Maison Lumi home page and product page on a laptop and a smartphone" width="2400" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">E-commerce</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/maison-lumi/">Maison Lumi</a></h3><span class="wk__year"><span class="wk__cat">E-commerce · </span>2026</span></div>
+<p class="wk__desc">An online store for handcrafted furniture and decor: a 1,200-item catalog, online payment and nationwide delivery</p>
+<ul class="wk__metrics"><li><b>+38%</b><span>order conversion</span></li><li><b>+17%</b><span>average order value</span></li><li><b>1.2 s</b><span>page load time</span></li></ul>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="web" data-reveal style="--d:0">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-orbita-600.avif 600w, ../assets/img/work-orbita-960.avif 960w, ../assets/img/work-orbita-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-orbita-600.webp 600w, ../assets/img/work-orbita-960.webp 960w, ../assets/img/work-orbita-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-orbita-960.webp" alt="Orbita Analytics dashboard in a browser window and the mobile version on a smartphone" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Web app</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/orbita-analytics/">Orbita Analytics</a></h3><span class="wk__year"><span class="wk__cat">Web app · </span>2025</span></div>
+<p class="wk__desc">Sales analytics for the Fresh&Go chain: revenue, receipts and targets of 42 stores in one dashboard</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>−12 hours of manual reports a week</p>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="bot" data-reveal style="--d:1">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-fix-600.avif 600w, ../assets/img/work-fix-960.avif 960w, ../assets/img/work-fix-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-fix-600.webp 600w, ../assets/img/work-fix-960.webp 960w, ../assets/img/work-fix-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-fix-960.webp" alt="FixPoint bot chat, repair booking Mini App and an order-ready notification" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Telegram bot</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/fixpoint/">FixPoint</a></h3><span class="wk__year"><span class="wk__cat">Telegram bot · </span>2024</span></div>
+<p class="wk__desc">A bot for a chain of repair shops: repair quotes, booking with a technician and payment right in the chat</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>2.3× more requests in 3 months</p>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="android" data-reveal style="--d:0">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-forma-600.avif 600w, ../assets/img/work-forma-960.avif 960w, ../assets/img/work-forma-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-forma-600.webp 600w, ../assets/img/work-forma-960.webp 960w, ../assets/img/work-forma-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-forma-960.webp" alt="Three FORMA app screens on Android phones against a gym background" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Android app</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/forma/">FORMA</a></h3><span class="wk__year"><span class="wk__cat">Android app · </span>2025</span></div>
+<p class="wk__desc">An app for a chain of fitness studios: schedule, class booking and a membership with a QR code</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>4.8 ★ on Google Play</p>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="web" data-reveal style="--d:1">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-sever-600.avif 600w, ../assets/img/work-sever-960.avif 960w, ../assets/img/work-sever-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-sever-600.webp 600w, ../assets/img/work-sever-960.webp 960w, ../assets/img/work-sever-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-sever-960.webp" alt="Severny Park website home page in a browser and an apartment page on a smartphone" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Real estate website</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/severny-park/">Severny Park</a></h3><span class="wk__year"><span class="wk__cat">Real estate website · </span>2024</span></div>
+<p class="wk__desc">A website for a premium residential quarter with apartment search, floor plans and a mortgage calculator</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>+54% leads from the website</p>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="bot" data-reveal style="--d:0">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-fluent-600.avif 600w, ../assets/img/work-fluent-960.avif 960w, ../assets/img/work-fluent-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-fluent-600.webp 600w, ../assets/img/work-fluent-960.webp 960w, ../assets/img/work-fluent-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-fluent-960.webp" alt="Fluent Club Mini App screens on two smartphones with 3D illustrations" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Telegram Mini App</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/fluent-club/">Fluent Club</a></h3><span class="wk__year"><span class="wk__cat">Telegram Mini App · </span>2026</span></div>
+<p class="wk__desc">An online English school right inside Telegram: lessons, speaking clubs and subscription payments</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>12,400 active students</p>
+</div>
+</article>
+</li>
+<li class="wk" data-cat="android" data-reveal style="--d:1">
+<article class="wk__card">
+<div class="wk__media"><picture><source type="image/avif" srcset="../assets/img/work-zerno-600.avif 600w, ../assets/img/work-zerno-960.avif 960w, ../assets/img/work-zerno-1600.avif 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><source type="image/webp" srcset="../assets/img/work-zerno-600.webp 600w, ../assets/img/work-zerno-960.webp 960w, ../assets/img/work-zerno-1600.webp 1600w" sizes="(max-width: 760px) calc(100vw - 32px), (max-width: 1400px) 46vw, 640px"><img src="../assets/img/work-zerno-960.webp" alt="Two smartphones with the ZERNO app on a wooden table next to a cappuccino and a croissant" width="1600" height="1200" loading="lazy" decoding="async" class="wk__img"></picture><span class="wk__chip">Android app</span><span class="wk__view" aria-hidden="true">View case<span class="wk__view-ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></span></div>
+<div class="wk__meta">
+<div class="wk__head"><h3 class="wk__title"><a class="wk__hit" href="portfolio/zerno/">ZERNO</a></h3><span class="wk__year"><span class="wk__cat">Android app · </span>2024</span></div>
+<p class="wk__desc">An app for a coffee shop chain: pre-orders for a set time, a loyalty card and personal offers</p>
+<p class="wk__metric"><span class="wk__dot" aria-hidden="true"></span>+22% repeat visits</p>
+</div>
+</article>
+</li>
+</ul>
+<div class="works__foot" data-reveal>
+<a class="btn btn--ghost btn--xl works__all" href="portfolio/">All case studies<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+<div class="glow-ring"><button class="btn btn--dark btn--xl btn--shine works__cta" type="button" data-open="form">Discuss a project<span class="btn__icon btn__icon--mint"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></div>
+</div>
+</div>
+</section>
+<section class="stack" aria-label="Technologies we work with">
+<div class="container"><p class="stack__label">Technologies we work with</p></div>
+<div class="marquee"><div class="marquee__track"><ul class="marquee__list"><li>React</li><li>Next.js</li><li>TypeScript</li><li>Node.js</li><li>Python</li><li>aiogram</li><li>Kotlin</li><li>Jetpack Compose</li><li>PostgreSQL</li><li>Redis</li><li>Docker</li><li>Figma</li><li>Telegram Bot API</li><li>Firebase</li></ul><ul class="marquee__list" aria-hidden="true"><li>React</li><li>Next.js</li><li>TypeScript</li><li>Node.js</li><li>Python</li><li>aiogram</li><li>Kotlin</li><li>Jetpack Compose</li><li>PostgreSQL</li><li>Redis</li><li>Docker</li><li>Figma</li><li>Telegram Bot API</li><li>Firebase</li></ul></div></div>
+</section>
+<section class="section process" id="process" aria-labelledby="process-title">
+<div class="container">
+<div class="section-head" data-reveal>
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>How we work</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="process-title">From idea to launch — <span class="h2__dim">4 clear steps</span></h2>
+<p class="section-lead">A transparent process with fixed timelines and regular demos at every stage.</p>
+</div>
+<ol class="steps"><li class="step glass" data-reveal style="--d:1">
+<div class="step__top"><span class="step__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></span><span class="step__num" aria-hidden="true">01</span></div>
+<h3 class="step__title">Brief & research</h3>
+<p class="step__text">We dig into your goals, audience and requirements, then fix the scope, timeline and budget.</p>
+</li><li class="step glass" data-reveal style="--d:2">
+<div class="step__top"><span class="step__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pen"/></svg></span><span class="step__num" aria-hidden="true">02</span></div>
+<h3 class="step__title">Prototype & design</h3>
+<p class="step__text">We map out the structure and craft a modern interface in your brand style.</p>
+</li><li class="step glass" data-reveal style="--d:3">
+<div class="step__top"><span class="step__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-code"/></svg></span><span class="step__num" aria-hidden="true">03</span></div>
+<h3 class="step__title">Development & QA</h3>
+<p class="step__text">We write clean, fast code and test it on real devices and scenarios.</p>
+</li><li class="step glass" data-reveal style="--d:4">
+<div class="step__top"><span class="step__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-rocket"/></svg></span><span class="step__num" aria-hidden="true">04</span></div>
+<h3 class="step__title">Launch & support</h3>
+<p class="step__text">We ship the project, connect analytics and stay in touch after the release.</p>
+</li></ol>
+</div>
+</section>
+<section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+<div class="container">
+<div class="section-head" data-reveal>
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>Reviews</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="reviews-title">What our clients say</h2>
+<p class="section-lead">Trusted by entrepreneurs and teams who care about results.</p>
+</div>
+<ul class="reviews__list"><li class="review glass" data-reveal style="--d:1">
+<figure class="review__fig">
+<div class="review__top"><span class="review__stars" role="img" aria-label="Rating: 5 out of 5"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></span><svg class="ico review__quote" aria-hidden="true" focusable="false"><use href="#i-quote"/></svg></div>
+<blockquote class="review__text"><p>They relaunched our online store without pausing sales. The site is lightning fast, mobile orders went up noticeably, and we got clear reports at every stage.</p></blockquote>
+<figcaption class="review__author"><span class="review__ava" aria-hidden="true">AK</span><span class="review__who"><b>Anna Kovaleva</b><small>Owner of a home decor store</small></span></figcaption>
+</figure>
+</li><li class="review glass" data-reveal style="--d:2">
+<figure class="review__fig">
+<div class="review__top"><span class="review__stars" role="img" aria-label="Rating: 5 out of 5"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></span><svg class="ico review__quote" aria-hidden="true" focusable="false"><use href="#i-quote"/></svg></div>
+<blockquote class="review__text"><p>The Telegram bot took over bookings and routine customer questions. It works around the clock, and our managers can finally focus on sales.</p></blockquote>
+<figcaption class="review__author"><span class="review__ava" aria-hidden="true">DS</span><span class="review__who"><b>Dmitry Sokolov</b><small>Head of a service center</small></span></figcaption>
+</figure>
+</li><li class="review glass" data-reveal style="--d:3">
+<figure class="review__fig">
+<div class="review__top"><span class="review__stars" role="img" aria-label="Rating: 5 out of 5"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-star"/></svg></span><svg class="ico review__quote" aria-hidden="true" focusable="false"><use href="#i-quote"/></svg></div>
+<blockquote class="review__text"><p>The app turned out convenient and stable — our members love the interface. The team suggested ideas we hadn’t even thought of.</p></blockquote>
+<figcaption class="review__author"><span class="review__ava" aria-hidden="true">ML</span><span class="review__who"><b>Maria Lebedeva</b><small>Co-founder of a fitness studio</small></span></figcaption>
+</figure>
+</li></ul>
+</div>
+</section>
+<section class="section home-blog" id="blog" aria-labelledby="blog-title">
+<div class="container">
+<div class="svc-sec__head">
+<div class="section-head" data-reveal>
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>Blog</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="blog-title">Useful reading on development</h2>
+<p class="section-lead">We break down the questions clients ask most — briefly, to the point and with numbers.</p>
+</div>
+<a class="btn btn--ghost" href="blog/" data-reveal>All articles<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+</div>
+<ul class="posts posts--3"><li class="post-card">
+<article class="post-card__in">
+<div class="post-card__media" aria-hidden="true"><span class="art"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="(max-width: 760px) 60vw, 280px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="(max-width: 760px) 60vw, 280px"><img src="../assets/img/svc-web-709.webp" alt="" width="709" height="670" loading="lazy" decoding="async" class="art__img"></picture></span></div>
+<div class="post-card__body">
+<p class="post-card__meta"><time datetime="2026-10-27">October 27, 2026</time><span aria-hidden="true">·</span><span>4 min read</span></p>
+<h3 class="post-card__title"><a class="post-card__link" href="blog/website-development-cost/">How much does website development cost and what drives the price</a></h3>
+<p class="post-card__text">How much a turnkey website costs: a landing page from ₽50,000, a corporate website from ₽120,000, an online store from ₽250,000. What the price consists of, what makes it higher, what costs follow the launch and how to save.</p>
+<span class="post-card__more">Read article<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</div>
+</article>
+</li><li class="post-card">
+<article class="post-card__in">
+<div class="post-card__media" aria-hidden="true"><span class="art art--glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span></div>
+<div class="post-card__body">
+<p class="post-card__meta"><time datetime="2026-10-20">October 20, 2026</time><span aria-hidden="true">·</span><span>6 min read</span></p>
+<h3 class="post-card__title"><a class="post-card__link" href="blog/telegram-bot-vulnerabilities/">7 common Telegram bot vulnerabilities and how to fix them</a></h3>
+<p class="post-card__text">A leaked token, an open webhook, admin commands without checks, tampered payment amounts and unverified initData in Mini Apps — the 7 most common Telegram bot vulnerabilities with code examples and a checklist.</p>
+<span class="post-card__more">Read article<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</div>
+</article>
+</li><li class="post-card">
+<article class="post-card__in">
+<div class="post-card__media" aria-hidden="true"><span class="art"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="(max-width: 760px) 60vw, 280px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="(max-width: 760px) 60vw, 280px"><img src="../assets/img/svc-miniapp-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async" class="art__img"></picture></span></div>
+<div class="post-card__body">
+<p class="post-card__meta"><time datetime="2026-10-13">October 13, 2026</time><span aria-hidden="true">·</span><span>6 min read</span></p>
+<h3 class="post-card__title"><a class="post-card__link" href="blog/bot-vs-mini-app-vs-website/">Bot, Mini App or website — which one does your business need?</a></h3>
+<p class="post-card__text">We compare a Telegram bot, a Telegram Mini App and a website by use case, price, timeline and discoverability. When a bot is enough, when you need a Mini App and when a website is a must — with a table, proven combinations and a checklist.</p>
+<span class="post-card__more">Read article<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span>
+</div>
+</article>
+</li></ul>
+</div>
+</section>
+<section class="section faq" id="faq" aria-labelledby="faq-title">
+<div class="container faq__grid">
+<div class="faq__intro" data-reveal>
+<p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>FAQ</span><span class="tag__end" aria-hidden="true"></span></p>
+<h2 class="h2" id="faq-title">Frequently asked questions</h2>
+<p class="section-lead">Didn’t find an answer? Message us — we reply within an hour.</p>
+<a class="btn btn--dark" href="#contact" data-open="form">Ask a question<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+</div>
+<div class="acc" data-acc data-reveal><div class="acc__item is-open">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q1" aria-expanded="true" aria-controls="faq-a1"><span class="acc__q">How much does development cost?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a1" role="region" aria-labelledby="faq-q1"><div class="acc__inner"><p>A website starts from ₽50,000, a Telegram bot from ₽30,000, a Mini App from ₽120,000, an Android app from ₽300,000 and a security audit from ₽25,000. The exact price depends on the scope and complexity: after a <a href="#brief">short brief</a> we prepare an estimate with a fixed price and timeline — no hidden fees. See formats and prices on the <a href="services/">services and pricing</a> page.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q2" aria-expanded="false" aria-controls="faq-a2"><span class="acc__q">How long does it take?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a2" role="region" aria-labelledby="faq-q2"><div class="acc__inner"><p>A landing page takes from 2 weeks, a Telegram bot from 1 week, a Mini App from 2 weeks, an Android app from 4 weeks. A security audit takes from 3 days. We fix a detailed plan with milestones in the contract.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q3" aria-expanded="false" aria-controls="faq-a3"><span class="acc__q">Do you work under a contract?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a3" role="region" aria-labelledby="faq-q3"><div class="acc__inner"><p>Yes. We work under an official contract with milestone payments. After delivery you receive the source code and full rights to the product.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q4" aria-expanded="false" aria-controls="faq-a4"><span class="acc__q">Do you support projects after launch?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a4" role="region" aria-labelledby="faq-q4"><div class="acc__inner"><p>Yes, we offer technical support and further development: updates, monitoring, backups and new features.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q5" aria-expanded="false" aria-controls="faq-a5"><span class="acc__q">Can you improve an existing project?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a5" role="region" aria-labelledby="faq-q5"><div class="acc__inner"><p>Absolutely — even if someone else built it. We’ll dig into the code, fix bugs and propose a plan for improvements, a redesign or optimization.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q6" aria-expanded="false" aria-controls="faq-a6"><span class="acc__q">What does a security audit include?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a6" role="region" aria-labelledby="faq-q6"><div class="acc__inner"><p>We review the code, backend, authentication and payment flows of your website, bot or Mini App. You get a report with the vulnerabilities found, their risk level and how to fix them. We work under an NDA and can fix the issues right away.</p></div></div>
+</div><div class="acc__item">
+<h3 class="acc__h"><button class="acc__btn" type="button" id="faq-q7" aria-expanded="false" aria-controls="faq-a7"><span class="acc__q">How do we get started?</span><span class="acc__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button></h3>
+<div class="acc__panel" id="faq-a7" role="region" aria-labelledby="faq-q7"><div class="acc__inner"><p>Message us on Telegram or leave a request on the website. We’ll ask a few questions, schedule a call and propose a solution.</p></div></div>
+</div></div>
+</div>
+</section>
+<section class="section brief" id="brief" aria-labelledby="brief-title">
+<div class="container">
+<div class="brief__wrap" data-brief>
+<form class="brief__form" action="mailto:hello@switchlab.dev" method="post" enctype="text/plain" novalidate data-endpoint="" data-email="hello@switchlab.dev">
+<div class="brief__head" data-reveal><p class="tag"><span class="tag__dot" aria-hidden="true"></span><span>Brief</span><span class="tag__end" aria-hidden="true"></span></p><h2 class="h2" id="brief-title">Build your project <span class="h2__dim">in 2 minutes</span></h2><p class="brief__lead">Pick what you need and name a comfortable budget — we’ll suggest a solution that fits it.</p></div>
+<div class="brief__stage" data-reveal style="--d:1">
+<div class="brief__studio">
+<div class="brief__top"><span class="brief__cap">Your project</span><span class="brief__cnt"><span class="brief__ring" aria-hidden="true"><svg viewBox="0 0 36 36" focusable="false"><circle cx="18" cy="18" r="15.5"/><circle class="brief__ring-on" cx="18" cy="18" r="15.5"/></svg></span><span><b data-bcount>0</b> of 5</span></span></div>
+<p class="brief__title" data-out="title" data-nobr data-empty="New project">New project</p>
+<div class="brief__scene is-empty" data-scene>
+<div class="brief__ghost" aria-hidden="true"><span class="brief__ghostring"></span><span>Pick what you need —<br>your project comes together here</span></div>
+<div class="brief__objs" aria-hidden="true"><div class="brief__obj" data-obj="web"><div class="brief__float"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="(max-width: 960px) 45vw, 320px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="(max-width: 960px) 45vw, 320px"><img src="../assets/img/svc-web-709.webp" alt="" width="709" height="670" loading="lazy" decoding="async"></picture></div></div><div class="brief__obj" data-obj="bot"><div class="brief__float"><picture><source type="image/avif" srcset="../assets/img/svc-tg-407.avif 407w" sizes="(max-width: 960px) 45vw, 320px"><source type="image/webp" srcset="../assets/img/svc-tg-407.webp 407w" sizes="(max-width: 960px) 45vw, 320px"><img src="../assets/img/svc-tg-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></div></div><div class="brief__obj" data-obj="miniapp"><div class="brief__float"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="(max-width: 960px) 45vw, 320px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="(max-width: 960px) 45vw, 320px"><img src="../assets/img/svc-miniapp-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></div></div><div class="brief__obj" data-obj="android"><div class="brief__float"><picture><source type="image/avif" srcset="../assets/img/svc-android-354.avif 354w" sizes="(max-width: 960px) 45vw, 320px"><source type="image/webp" srcset="../assets/img/svc-android-354.webp 354w" sizes="(max-width: 960px) 45vw, 320px"><img src="../assets/img/svc-android-354.webp" alt="" width="354" height="438" loading="lazy" decoding="async"></picture></div></div></div>
+<ul class="brief__chips" aria-hidden="true"><li class="brief__chip" data-chip="design"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pen"/></svg><span>UI/UX design</span></li><li class="brief__chip" data-chip="integrations"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plug"/></svg><span>Integrations & automation</span></li><li class="brief__chip" data-chip="audit-web"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><span>Website audit</span></li><li class="brief__chip" data-chip="audit-bot"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><span>Telegram bot audit</span></li><li class="brief__chip" data-chip="audit-miniapp"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><span>Mini App audit</span></li><li class="brief__chip" data-chip="improve"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-toggles"/></svg><span>Project improvements</span></li><li class="brief__chip" data-chip="bugfix"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bug"/></svg><span>Bug fixing</span></li><li class="brief__chip" data-chip="support"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-lifebuoy"/></svg><span>Support & growth</span></li><li class="brief__chip brief__chip--own" data-chip="own"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg><span data-out="own"></span></li><li class="brief__chip brief__chip--more" data-chip-more><span></span></li></ul>
+</div>
+<dl class="brief__spec">
+<div data-has="budget"><dt>Budget</dt><dd data-out="budgetS" data-empty="—">—</dd></div>
+<div data-has="when"><dt>Timeline</dt><dd data-out="whenS" data-empty="—">—</dd></div>
+<div data-has="stage"><dt>Starting point</dt><dd data-out="stageS" data-empty="—">—</dd></div>
+</dl>
+<div class="brief__done">
+<span class="brief__ok" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>
+<div class="brief__dtext" tabindex="-1" data-done-focus><p class="brief__dt" data-done-title>Brief received!</p><p class="brief__dp" data-done="sent">We’ll study the task and reply within an hour — with ideas and a rough estimate.</p><p class="brief__dp" data-done="mailto" hidden>We opened your email app with the brief — just hit “Send”. Didn’t open? Message us on <a href="https://t.me/switchlab" target="_blank" rel="noopener">Telegram</a>.</p></div>
+<button type="button" class="brief__again" data-again>Start over</button>
+</div>
+</div>
+</div>
+<div class="brief__opts">
+<div class="brief__grp" data-sec="need" role="group" aria-labelledby="b-q-need" aria-describedby="b-err-need">
+<div class="brief__gh"><span class="brief__gn" aria-hidden="true">01</span><h3 class="brief__q" id="b-q-need">What do you need?</h3></div>
+<p class="brief__hint">You can pick several</p>
+<p class="brief__sub">Development</p>
+<div class="brief__grid"><label class="brief__card brief__card--pic"><input type="checkbox" name="need" value="web" data-label="Website" data-mid="website"><span class="brief__face"><span class="brief__thumb"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="64px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="64px"><img src="../assets/img/svc-web-709.webp" alt="" width="709" height="670" loading="lazy" decoding="async"></picture></span><span class="brief__txt"><span class="brief__cl">Website</span><span class="brief__cn">Landing page, store, web service</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card brief__card--pic"><input type="checkbox" name="need" value="bot" data-label="Telegram bot"><span class="brief__face"><span class="brief__thumb"><picture><source type="image/avif" srcset="../assets/img/svc-tg-407.avif 407w" sizes="64px"><source type="image/webp" srcset="../assets/img/svc-tg-407.webp 407w" sizes="64px"><img src="../assets/img/svc-tg-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></span><span class="brief__txt"><span class="brief__cl">Telegram bot</span><span class="brief__cn">Sales, bookings, support</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card brief__card--pic"><input type="checkbox" name="need" value="miniapp" data-label="Mini App"><span class="brief__face"><span class="brief__thumb"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="64px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="64px"><img src="../assets/img/svc-miniapp-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async"></picture></span><span class="brief__txt"><span class="brief__cl">Mini App</span><span class="brief__cn">An app inside Telegram</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card brief__card--pic"><input type="checkbox" name="need" value="android" data-label="Android app"><span class="brief__face"><span class="brief__thumb"><picture><source type="image/avif" srcset="../assets/img/svc-android-354.avif 354w" sizes="64px"><source type="image/webp" srcset="../assets/img/svc-android-354.webp 354w" sizes="64px"><img src="../assets/img/svc-android-354.webp" alt="" width="354" height="438" loading="lazy" decoding="async"></picture></span><span class="brief__txt"><span class="brief__cl">Android app</span><span class="brief__cn">Google Play and RuStore</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label></div>
+<div class="brief__pills"><label class="brief__pill"><input type="checkbox" name="need" value="design" data-label="UI/UX design"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pen"/></svg>UI/UX design</span></label><label class="brief__pill"><input type="checkbox" name="need" value="integrations" data-label="Integrations &amp; automation" data-mid="integrations &amp; automation"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plug"/></svg>Integrations & automation</span></label></div>
+<p class="brief__sub"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg>Security audit</p>
+<div class="brief__pills"><label class="brief__pill"><input type="checkbox" name="need" value="audit-web" data-label="Website audit" data-mid="website audit"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-code"/></svg>Website audit</span></label><label class="brief__pill"><input type="checkbox" name="need" value="audit-bot" data-label="Telegram bot audit"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bot"/></svg>Telegram bot audit</span></label><label class="brief__pill"><input type="checkbox" name="need" value="audit-miniapp" data-label="Mini App audit"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-apps"/></svg>Mini App audit</span></label></div>
+<p class="brief__sub">Improvements & support</p>
+<div class="brief__pills"><label class="brief__pill"><input type="checkbox" name="need" value="improve" data-label="Project improvements" data-mid="project improvements"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-toggles"/></svg>Project improvements</span></label><label class="brief__pill"><input type="checkbox" name="need" value="bugfix" data-label="Bug fixing" data-mid="bug fixing"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bug"/></svg>Bug fixing</span></label><label class="brief__pill"><input type="checkbox" name="need" value="support" data-label="Support &amp; growth" data-mid="support &amp; growth"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-lifebuoy"/></svg>Support & growth</span></label></div>
+<p class="brief__sub">Not on the list?</p>
+<div class="brief__pills"><label class="brief__pill brief__pill--own"><input type="checkbox" name="need" value="own" data-label="Custom task"><span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg>Custom task</span></label></div>
+<div class="brief__reveal brief__reveal--own"><div><input class="brief__input" type="text" name="needOwn" maxlength="200" placeholder="For example: a booking bot for a salon" aria-label="Custom task" aria-describedby="b-err-need" autocomplete="off"></div></div>
+<p class="brief__err" id="b-err-need" data-err="need" aria-live="polite"></p>
+</div>
+<div class="brief__grp" data-sec="budget" role="group" aria-labelledby="b-q-budget" aria-describedby="b-err-budget">
+<div class="brief__gh"><span class="brief__gn" aria-hidden="true">02</span><h3 class="brief__q" id="b-q-budget">What budget feels comfortable?</h3></div>
+<div class="brief__grid brief__grid--3"><label class="brief__card"><input type="radio" name="budget" value="50" data-label="Up to ₽50k"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">Up to ₽50k</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="budget" value="150" data-label="₽50–150k"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">₽50–150k</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="budget" value="300" data-label="₽150–300k"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">₽150–300k</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="budget" value="300+" data-label="₽300k+"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">₽300k+</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="budget" value="unknown" data-label="Not sure yet" data-short="Let’s discuss"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">Not sure yet</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="budget" value="own" data-label="Custom amount"><span class="brief__face"><span class="brief__txt"><span class="brief__cl">Custom amount</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label></div>
+<div class="brief__reveal brief__reveal--sum"><div><span class="brief__sum"><input class="brief__input" type="text" inputmode="numeric" name="budgetOwn" maxlength="13" placeholder="For example, 80,000" aria-label="Custom amount" aria-describedby="b-err-budget" autocomplete="off"><span aria-hidden="true">₽</span></span></div></div>
+<p class="brief__err" id="b-err-budget" data-err="budget" aria-live="polite"></p>
+<p class="brief__note">We’ll adapt to the amount: suggest a version that fits it, with the rest in later stages.</p>
+</div>
+<div class="brief__grp" data-sec="when" role="group" aria-labelledby="b-q-when" aria-describedby="b-err-when">
+<div class="brief__gh"><span class="brief__gn" aria-hidden="true">03</span><h3 class="brief__q" id="b-q-when">When do you need to launch?</h3></div>
+<p class="brief__hint">Urgent tasks start the same day you reach out.</p>
+<div class="brief__grid brief__grid--ico"><label class="brief__card"><input type="radio" name="when" value="asap" data-label="As soon as possible" data-short="ASAP"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bolt"/></svg></span><span class="brief__txt"><span class="brief__cl">As soon as possible</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="when" value="month" data-label="Within a month"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg></span><span class="brief__txt"><span class="brief__cl">Within a month</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="when" value="quarter" data-label="1–3 months"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-chart"/></svg></span><span class="brief__txt"><span class="brief__cl">1–3 months</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="when" value="later" data-label="No rush"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-leaf"/></svg></span><span class="brief__txt"><span class="brief__cl">No rush</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label></div>
+<p class="brief__err" id="b-err-when" data-err="when" aria-live="polite"></p>
+</div>
+<div class="brief__grp" data-sec="stage" role="group" aria-labelledby="b-q-stage" aria-describedby="b-err-stage">
+<div class="brief__gh"><span class="brief__gn" aria-hidden="true">04</span><h3 class="brief__q" id="b-q-stage">What do you already have?</h3></div>
+<p class="brief__hint">Just an idea is fine too — we’ll help with the rest.</p>
+<div class="brief__grid brief__grid--ico"><label class="brief__card"><input type="radio" name="stage" value="idea" data-label="Just an idea" data-short="Idea"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-idea"/></svg></span><span class="brief__txt"><span class="brief__cl">Just an idea</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="stage" value="spec" data-label="A description or spec" data-short="Spec"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-quote"/></svg></span><span class="brief__txt"><span class="brief__cl">A description or spec</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="stage" value="design" data-label="A design" data-short="Design"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pen"/></svg></span><span class="brief__txt"><span class="brief__cl">A design</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label><label class="brief__card"><input type="radio" name="stage" value="live" data-label="A live project" data-short="Live project"><span class="brief__face"><span class="brief__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-rocket"/></svg></span><span class="brief__txt"><span class="brief__cl">A live project</span></span><span class="brief__tick" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span></span></label></div>
+<p class="brief__err" id="b-err-stage" data-err="stage" aria-live="polite"></p>
+<label class="brief__fld brief__fld--area"><span>A few words about the project <em>· optional</em></span><textarea class="brief__input" name="comment" rows="3" maxlength="2000" placeholder="Links to examples, wishes — anything that matters"></textarea></label>
+</div>
+<div class="brief__grp" data-sec="contact" role="group" aria-labelledby="b-q-contact" aria-describedby="b-err-contact">
+<div class="brief__gh"><span class="brief__gn" aria-hidden="true">05</span><h3 class="brief__q" id="b-q-contact">How can we reach you?</h3></div>
+<p class="brief__hint">We’ll reply within an hour — with ideas and a rough estimate.</p>
+<div class="brief__two">
+<label class="brief__fld"><span>Your name</span><input class="brief__input" type="text" name="name" maxlength="80" placeholder="Name" autocomplete="name" aria-describedby="b-err-contact"></label>
+<label class="brief__fld"><span>Telegram, phone or email</span><input class="brief__input" type="text" name="contact" maxlength="120" placeholder="@username, +1… or email" autocomplete="on" aria-describedby="b-err-contact"></label>
+</div>
+<div class="hp" aria-hidden="true"><label for="b-company">Company</label><input id="b-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+<div class="brief__consent"><label class="consent"><input type="checkbox" name="consent" id="b-consent" aria-describedby="b-err-contact"><span class="consent__box" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span class="consent__text">I agree to the processing of my personal data in accordance with the <a href="privacy/" target="_blank" rel="noopener">privacy policy</a></span></label></div>
+<p class="brief__err" id="b-err-contact" data-err="contact" aria-live="polite"></p>
+</div>
+<p class="brief__status" data-bstatus role="alert"></p>
+<div class="brief__bar">
+<span class="brief__barinfo"><span class="brief__bars" data-dots aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span><b data-bcount>0</b> of 5 filled</span></span>
+<button type="submit" class="btn btn--dark btn--lg brief__send"><span data-sendtext>Send brief</span><span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</section>
+<section class="section contact" id="contact" aria-labelledby="contact-title">
+<div class="container container--wide">
+<div class="cta" data-reveal>
+<picture class="cta__bg"><source type="image/avif" srcset="../assets/img/cta-silk-900.avif 900w, ../assets/img/cta-silk-1792.avif 1792w" sizes="(max-width: 1440px) 100vw, 1400px"><source type="image/webp" srcset="../assets/img/cta-silk-900.webp 900w, ../assets/img/cta-silk-1792.webp 1792w" sizes="(max-width: 1440px) 100vw, 1400px"><img src="../assets/img/cta-silk-1792.webp" alt="" width="1792" height="592" loading="lazy" decoding="async"></picture>
+<div class="cta__content">
+<h2 class="h2 cta__title" id="contact-title">Ready to discuss your project?</h2>
+<p class="cta__text">Message us — and we’ll find the best solution for your goals</p>
+</div>
+<div class="cta__actions">
+<div class="cta__row">
+<a class="btn btn--light btn--lg cta__tg" href="https://t.me/switchlab" target="_blank" rel="noopener">Message on Telegram<span class="btn__icon btn__icon--plain"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plane"/></svg></span></a>
+<a class="circle-btn circle-btn--glass cta__more" href="#contact" data-open="form" aria-label="Leave a request" title="Leave a request"><span class="cta__more-label">Leave a request</span><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
+</div>
+<p class="cta__mail">or email us at <a href="mailto:hello@switchlab.dev">hello@switchlab.dev</a></p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="footer__grid">
+<div class="footer__brand">
+<a class="logo logo--footer" href="#top" aria-label="Switch Lab — home"><svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><use href="#logo-mark"/></svg><span class="logo__text" aria-hidden="true">Switch Lab</span></a>
+<p class="footer__about">A studio building websites, Telegram bots, Mini Apps and Android apps. We create, audit and improve digital products that drive results.</p>
+<p class="footer__status"><span class="badge__dot" aria-hidden="true"></span>Online 24/7</p>
+</div>
+<nav class="footer__col" aria-label="Navigation"><p class="footer__title">Navigation</p><ul><li><a href="services/">Services & pricing</a></li><li><a href="portfolio/">Portfolio</a></li><li><a href="blog/">Blog</a></li><li><a href="#about">About</a></li><li><a href="#process">How we work</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#brief">Brief</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+<nav class="footer__col" aria-label="Services"><p class="footer__title">Services</p><ul><li><a href="services/website-development/">Website development</a></li><li><a href="services/telegram-bot-development/">Telegram bots</a></li><li><a href="services/telegram-mini-apps/">Telegram Mini Apps</a></li><li><a href="services/android-app-development/">Android apps</a></li><li><a href="services/security-audit/">Security audit</a></li><li><a href="services/support-and-improvements/">Improvements & support</a></li></ul></nav>
+<div class="footer__col"><p class="footer__title">Contact</p><ul class="footer__contacts">
+<li><a href="https://t.me/switchlab" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-tg"/></svg>@switchlab</a></li>
+<li><a href="mailto:hello@switchlab.dev"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg>hello@switchlab.dev</a></li>
+</ul>
+<a class="btn btn--dark btn--sm footer__cta" href="#contact" data-open="form">Discuss a project<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></a>
+</div>
+</div>
+<div class="footer__bottom">
+<p class="footer__copy">© 2026 Switch Lab. All rights reserved.</p>
+<a class="footer__link" href="privacy/">Privacy policy</a>
+<div class="lang lang--footer" role="group" aria-label="Choose language"><a class="lang__opt" href="../" hreflang="ru" lang="ru" data-lang-link="ru" aria-label="Русская версия">RU</a><a class="lang__opt is-active" href="./" hreflang="en" lang="en" data-lang-link="en" aria-label="English version" aria-current="true">EN</a></div>
+<a class="footer__top" href="#top">Back to top<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow-up"/></svg></a>
+</div>
+<p class="footer__legal">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License. Telegram is a trademark of Telegram FZ-LLC.</p>
+</div>
+<div class="footer__wordmark" aria-hidden="true">Switch Lab</div>
+</footer>
+<dialog class="modal modal--form" id="modal-form" aria-labelledby="form-title">
+<div class="modal__box">
+<button class="modal__close" type="button" data-close aria-label="Close"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+<div class="lead" data-lead>
+<div class="lead__view" data-view="form">
+<h2 class="modal__title" id="form-title">Discuss a project</h2>
+<p class="modal__lead">Tell us about your idea — we’ll reply within an hour and suggest a solution.</p>
+<form class="form" id="lead-form" novalidate data-endpoint="" data-email="hello@switchlab.dev">
+<div class="form__grid">
+<div class="field"><label class="field__label" for="f-name">Your name</label><input class="field__input" id="f-name" name="name" type="text" autocomplete="name" placeholder="Name" required maxlength="80" aria-describedby="f-name-err"><p class="field__err" id="f-name-err"></p></div>
+<div class="field"><label class="field__label" for="f-contact">Telegram, phone or email</label><input class="field__input" id="f-contact" name="contact" type="text" autocomplete="on" placeholder="@username, +1… or email" required maxlength="120" aria-describedby="f-contact-err"><p class="field__err" id="f-contact-err"></p></div>
+</div>
+<fieldset class="field field--chips"><legend class="field__label">What do you need?</legend><div class="chips"><label class="chip-check"><input type="checkbox" name="type" value="web"><span>Website</span></label><label class="chip-check"><input type="checkbox" name="type" value="bot"><span>Telegram bot</span></label><label class="chip-check"><input type="checkbox" name="type" value="miniapp"><span>Mini App</span></label><label class="chip-check"><input type="checkbox" name="type" value="android"><span>Android app</span></label><label class="chip-check"><input type="checkbox" name="type" value="audit"><span>Security audit</span></label><label class="chip-check"><input type="checkbox" name="type" value="fix"><span>Improvements or fixes</span></label><label class="chip-check"><input type="checkbox" name="type" value="other"><span>Other</span></label></div></fieldset>
+<div class="field"><label class="field__label" for="f-message">About the project</label><textarea class="field__input field__input--area" id="f-message" name="message" rows="4" maxlength="2000" placeholder="Describe the task, timeline and wishes"></textarea></div>
+<div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off"></div>
+<div class="field field--consent"><label class="consent"><input type="checkbox" name="consent" id="f-consent" required aria-describedby="f-consent-err"><span class="consent__box" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span><span class="consent__text">I agree to the processing of my personal data in accordance with the <a href="privacy/" target="_blank" rel="noopener">privacy policy</a></span></label><p class="field__err" id="f-consent-err"></p></div>
+<div class="form__foot"><button class="btn btn--dark btn--lg form__submit" type="submit"><span data-submit-text>Send request</span><span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></div>
+<p class="form__status" data-form-status role="alert"></p>
+</form>
+</div>
+<div class="lead__view lead__view--done" data-view="done" hidden>
+<span class="done__icon" aria-hidden="true"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg></span>
+<h2 class="modal__title" data-done-title tabindex="-1">Request sent!</h2>
+<p class="modal__lead" data-done-text>Thank you! We’ll get back to you shortly.</p>
+<div class="done__actions"><a class="btn btn--dark" href="https://t.me/switchlab" target="_blank" rel="noopener">Telegram<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plane"/></svg></span></a><button class="btn btn--ghost" type="button" data-form-reset>Send another request</button></div>
+</div>
+</div>
+</div>
+</dialog>
+<dialog class="modal modal--wide" id="modal-services" aria-labelledby="svc-modal-title">
+<div class="modal__box">
+<button class="modal__close" type="button" data-close aria-label="Close"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+<header class="modal__head"><p class="tag"><svg class="tag__spark" aria-hidden="true"><use href="#i-sparkle"/></svg>Services</p><h2 class="modal__title" id="svc-modal-title">Everything to launch and grow a digital product</h2><p class="modal__lead">We build products from scratch, audit their security and improve existing projects — turnkey or at the stage you need. <a class="modal__hub" href="services/">All services and pricing<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></p>
+<nav class="svc-jump" aria-label="Service categories"><ul><li><a class="svc-jump__link" href="#m-svc-dev" data-jump="m-svc-dev">Development<span class="svc-jump__n">6</span></a></li><li><a class="svc-jump__link svc-jump__link--dark" href="#m-svc-security" data-jump="m-svc-security">Security audit<span class="svc-jump__n">3</span></a></li><li><a class="svc-jump__link" href="#m-svc-care" data-jump="m-svc-care">Improvements & support<span class="svc-jump__n">3</span></a></li></ul></nav></header>
+<section class="svc-group" id="m-svc-dev" tabindex="-1" aria-labelledby="m-svc-dev-title">
+<div class="svc-group__head">
+<h3 class="svc-group__title" id="m-svc-dev-title">Development</h3>
+</div>
+<div class="svc-list"><article class="svc-item" id="m-svc-web" tabindex="-1">
+<div class="svc-item__media"><picture><source type="image/avif" srcset="../assets/img/svc-web-360.avif 360w, ../assets/img/svc-web-709.avif 709w" sizes="96px"><source type="image/webp" srcset="../assets/img/svc-web-360.webp 360w, ../assets/img/svc-web-709.webp 709w" sizes="96px"><img src="../assets/img/svc-web-709.webp" alt="" width="709" height="670" loading="lazy" decoding="async" class="svc-item__img"></picture></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Websites & web services</h4><p class="svc-item__text">Landing pages, corporate websites, online stores and web apps. Fast loading, responsive layouts and a solid SEO foundation from day one.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Prototype and UI/UX design</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Responsive front-end and animations</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>CMS, online payments and analytics</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Technical SEO and fast load times</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 2 weeks</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/website-development/">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="web">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-bot" tabindex="-1">
+<div class="svc-item__media"><picture><source type="image/avif" srcset="../assets/img/svc-tg-407.avif 407w" sizes="96px"><source type="image/webp" srcset="../assets/img/svc-tg-407.webp 407w" sizes="96px"><img src="../assets/img/svc-tg-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async" class="svc-item__img"></picture></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Telegram bots</h4><p class="svc-item__text">Bots for sales, bookings, support and internal automation. They work 24/7 and integrate with the tools you already use.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Conversation flows and copy</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Catalog, cart and online payments</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>CRM, Google Sheets and 1C integrations</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Admin panel, analytics and broadcasts</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 week</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/telegram-bot-development/">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="bot">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-miniapp" tabindex="-1">
+<div class="svc-item__media"><picture><source type="image/avif" srcset="../assets/img/svc-miniapp-407.avif 407w" sizes="96px"><source type="image/webp" srcset="../assets/img/svc-miniapp-407.webp 407w" sizes="96px"><img src="../assets/img/svc-miniapp-407.webp" alt="" width="407" height="392" loading="lazy" decoding="async" class="svc-item__img"></picture></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Telegram Mini Apps <span class="svc-new svc-new--sm">New</span></h4><p class="svc-item__text">Full-featured web apps inside Telegram: stores, bookings, customer accounts, loyalty programs and games. They open in one tap — no installs or sign-ups.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Native Telegram look with light and dark themes</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Telegram login with server-side initData validation</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Payments via Telegram Stars and payment providers</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Integration with your bot, CRM and backend</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 2 weeks</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/telegram-mini-apps/">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="miniapp">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-android" tabindex="-1">
+<div class="svc-item__media"><picture><source type="image/avif" srcset="../assets/img/svc-android-354.avif 354w" sizes="96px"><source type="image/webp" srcset="../assets/img/svc-android-354.webp 354w" sizes="96px"><img src="../assets/img/svc-android-354.webp" alt="" width="354" height="438" loading="lazy" decoding="async" class="svc-item__img"></picture></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Android apps</h4><p class="svc-item__text">Native Kotlin apps — from MVPs to complex products, published on Google Play and RuStore.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>UX design and prototyping</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Kotlin and Jetpack Compose development</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Push notifications, payments, offline mode</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Publishing on Google Play and RuStore</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 4 weeks</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/android-app-development/">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="android">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-design" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-pen"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">UI/UX design</h4><p class="svc-item__text">Interfaces that are clear at first glance and help you reach your business goals.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Research and user flows</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Prototypes and a design system</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Interactive Figma prototype</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 week</b></span></span><span class="svc-item__acts"><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="other">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-integrations" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-plug"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Integrations & automation</h4><p class="svc-item__text">We connect websites, bots and apps with CRMs, payment providers and internal services via API.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>HubSpot, amoCRM, Bitrix24, Google Sheets</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Payment gateways and online receipts</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Automation of routine processes</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span><span class="svc-item__acts"><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="other">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article></div>
+</section>
+<section class="svc-group svc-group--dark" id="m-svc-security" tabindex="-1" aria-labelledby="m-svc-security-title">
+<div class="svc-group__head">
+<h3 class="svc-group__title" id="m-svc-security-title"><span class="svc-group__ico"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span>Security audit</h3>
+<p class="svc-group__lead">We look for vulnerabilities manually and with scanners. You get a report with risk levels and clear recommendations — and, if you like, we fix the issues and re-test.</p>
+<ol class="svc-flow"><li><b>01</b><span>Access & NDA</span></li><li><b>02</b><span>Code and infrastructure review</span></li><li><b>03</b><span>Prioritized report</span></li><li><b>04</b><span>Fixes and re-testing</span></li></ol>
+</div>
+<div class="svc-list"><article class="svc-item" id="m-svc-audit-web" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-code"/></svg></span><span class="svc-item__badge"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Custom website audit</h4><p class="svc-item__text">We review websites and web services built from scratch or on frameworks — code, backend and configuration — and find vulnerabilities before anyone exploits them.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>OWASP Top 10 checks: injections, XSS, CSRF</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Authentication, sessions and access to other users’ data (IDOR)</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Forms, file uploads, APIs and payment flows</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Server configuration, HTTPS and security headers</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/security-audit/#audit-web">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--light btn--sm" type="button" data-open="form" data-type="audit">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-audit-bot" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bot"/></svg></span><span class="svc-item__badge"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Telegram bot audit</h4><p class="svc-item__text">We check whether someone could steal the token, bypass payments, get into the admin panel or access user data.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Token storage and webhook protection</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Admin permissions and access to commands</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Payment tampering and bypasses</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Protection from flooding, spam and personal data leaks</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/security-audit/#audit-bot">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--light btn--sm" type="button" data-open="form" data-type="audit">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item svc-item--wide" id="m-svc-audit-miniapp" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-apps"/></svg></span><span class="svc-item__badge"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Telegram Mini App audit</h4><p class="svc-item__text">We review the whole stack: the Mini App UI, the bot and the backend — with a focus on authentication and payments.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Server-side initData signature validation</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>API protection, CORS and Content Security Policy</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Client-side tampering with user data and prices</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Secure data exchange between the Mini App, bot and server</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 3 days</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/security-audit/#audit-miniapp">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--light btn--sm" type="button" data-open="form" data-type="audit">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article></div>
+</section>
+<section class="svc-group" id="m-svc-care" tabindex="-1" aria-labelledby="m-svc-care-title">
+<div class="svc-group__head">
+<h3 class="svc-group__title" id="m-svc-care-title">Improvements & support</h3>
+</div>
+<div class="svc-list"><article class="svc-item" id="m-svc-improve" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-toggles"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Website & bot improvements</h4><p class="svc-item__text">We take over existing projects — even if someone else built them: we dig into the code, add features and clean things up.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>New pages, features and bot flows</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Payments, CRM and third-party API integrations</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Faster loading and optimization</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Redesign and UX improvements</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/support-and-improvements/#improve">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="fix">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item" id="m-svc-bugfix" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-bug"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Bug fixing</h4><p class="svc-item__text">We fix websites and bots that crash, lag or don’t work as intended — and remove the cause, not just the symptoms.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Log-based diagnostics and reproducing the bug</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Urgent fixes for critical failures</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Bot crashes, stuck webhooks and queues</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Tests so the bug doesn’t come back</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>from 1 day</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/support-and-improvements/#bugfix">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="fix">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article><article class="svc-item svc-item--wide" id="m-svc-support" tabindex="-1">
+<div class="svc-item__media"><span class="svc-item__glyph"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-lifebuoy"/></svg></span></div>
+<div class="svc-item__body"><h4 class="svc-item__title">Support & growth</h4><p class="svc-item__text">Ongoing maintenance: updates, monitoring, backups and new features.</p>
+<p class="svc-item__sub">What’s included</p><ul class="checks"><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Monitoring and backups</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Fixes and updates</span></li><li><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><span>Planned product development</span></li></ul>
+<div class="svc-item__foot"><span class="svc-item__time"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg><span>Timeline: <b>monthly</b></span></span><span class="svc-item__acts"><a class="svc-item__more" href="services/support-and-improvements/#support">Learn more<svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><button class="btn btn--dark btn--sm" type="button" data-open="form" data-type="other">Discuss<span class="btn__icon"><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></span></button></span></div>
+</div></article></div>
+</section>
+</div>
+</dialog>
+<div class="toast" id="lang-toast" lang="ru" role="status" hidden data-toast data-suggest="ru">
+<p class="toast__text">Эта страница доступна на русском языке.</p>
+<a class="btn btn--light btn--sm toast__btn" href="../" hreflang="ru" data-lang-link="ru">Открыть на русском</a>
+<button class="toast__close" type="button" aria-label="Закрыть" data-toast-close><svg class="ico" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button>
+</div>
+<script type="application/json" id="sl-data">{"lang":"en","endpoint":"","email":"hello@switchlab.dev","telegram":"switchlab","form":{"required":"Please fill in this field","invalidContact":"Enter a Telegram username, phone or email","consentRequired":"Your consent is required","sending":"Sending…","submit":"Send request","error":"Something went wrong. Please try again or message us on Telegram.","successTitle":"Request sent!","successText":"Thank you! We’ll get back to you shortly.","mailtoTitle":"Almost done!","mailtoText":"We opened your email app with a ready message — just hit “Send”. Or message us on Telegram.","subject":"New request from the Switch Lab website","types":{"web":"Website","bot":"Telegram bot","miniapp":"Mini App","android":"Android app","audit":"Security audit","fix":"Improvements or fixes","other":"Other"},"labels":{"name":"Your name","contact":"Telegram, phone or email","type":"What do you need?","message":"About the project"}},"brief":{"and":"and","more":"{n} more","money":"₽{n}","subject":"Project brief from the Switch Lab website","err":{"need":"Pick at least one option","own":"Describe the task in a few words","budget":"Pick an option — or “Not sure yet”","budgetOwn":"Enter an amount","when":"Pick a timeline","stage":"Pick an option","name":"Tell us your name","contact":"Enter a Telegram username, phone or email","consent":"Your consent is required","send":"Couldn’t send the brief. Please try again or message us on Telegram."},"mail":{"need":"Services","own":"Custom task","budget":"Budget","when":"Timeline","stage":"Starting point","comment":"Comment","name":"Name","contact":"Contact"},"submit":"Send brief","sending":"Sending…","done":{"title":"Brief received!","mailtoTitle":"Almost done!","again":"Start over","edit":"Edit brief"}}}</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Блог Switch Lab — о разработке сайтов, Telegram-ботов и безопасности</title>
+<link>https://switchlab.dev/blog/</link>
+<description>Статьи о разработке сайтов, Telegram-ботов и Mini Apps: как выбрать формат, сколько стоит разработка и как защитить бота от взлома. Практика и цифры от команды Switch Lab.</description>
+<language>ru</language>
+<lastBuildDate>Tue, 27 Oct 2026 09:00:00 GMT</lastBuildDate>
+<atom:link href="https://switchlab.dev/blog/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Сколько стоит разработка сайта и из чего складывается цена</title>
+<link>https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/</guid>
+<pubDate>Tue, 27 Oct 2026 09:00:00 GMT</pubDate>
+<description>Сколько стоит сайт под ключ: лендинг от 50 000 ₽, корпоративный сайт от 120 000 ₽, интернет-магазин от 250 000 ₽. Разбираем, из чего складывается цена, что её повышает, какие расходы ждут после запуска и как сэкономить.</description>
+<category>сайты</category>
+<category>цены</category>
+</item>
+<item>
+<title>7 частых уязвимостей Telegram-ботов и как их закрыть</title>
+<link>https://switchlab.dev/blog/uyazvimosti-telegram-botov/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/uyazvimosti-telegram-botov/</guid>
+<pubDate>Tue, 20 Oct 2026 09:00:00 GMT</pubDate>
+<description>Утечка токена, открытый вебхук, админка без проверки прав, подмена сумм оплаты и непроверенный initData в Mini App — разбираем 7 частых уязвимостей Telegram-ботов с примерами кода и чек-листом.</description>
+<category>безопасность</category>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+</item>
+<item>
+<title>Бот, Mini App или сайт — что выбрать для бизнеса</title>
+<link>https://switchlab.dev/blog/bot-mini-app-ili-sayt/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/bot-mini-app-ili-sayt/</guid>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<description>Сравниваем Telegram-бота, Mini App и сайт по задачам, цене, срокам и продвижению. Когда хватит бота, когда нужен Mini App, а когда без сайта не обойтись — таблица, примеры связок и чек-лист.</description>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+<category>сайты</category>
+</item>
+</channel>
+</rss>
