@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://switchlab.dev/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/razrabotka-saytov/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-saytov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/website-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/razrabotka-telegram-botov/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-telegram-botov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/telegram-bot-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/telegram-bot-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/telegram-mini-apps/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/telegram-mini-apps/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/telegram-mini-apps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/telegram-mini-apps/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/razrabotka-android-prilozheniy/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-android-prilozheniy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/android-app-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/android-app-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/audit-bezopasnosti/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/audit-bezopasnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/security-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/security-audit/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/uslugi/dorabotka-i-podderzhka/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/dorabotka-i-podderzhka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/support-and-improvements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/support-and-improvements/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/maison-lumi/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/maison-lumi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/maison-lumi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/maison-lumi/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/orbita-analytics/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/orbita-analytics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/orbita-analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/orbita-analytics/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/fixpoint/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/fixpoint/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/fixpoint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/fixpoint/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/forma/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/forma/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/forma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/forma/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/severny-park/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/severny-park/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/severny-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/severny-park/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/fluent-club/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/fluent-club/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/fluent-club/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/fluent-club/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/portfolio/zerno/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/zerno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/zerno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/zerno/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/blog/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/website-development-cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/website-development-cost/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/blog/uyazvimosti-telegram-botov/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/uyazvimosti-telegram-botov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/blog/bot-mini-app-ili-sayt/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/bot-mini-app-ili-sayt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/privacy/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/website-development/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-saytov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/website-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/website-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/telegram-bot-development/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-telegram-botov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/telegram-bot-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/telegram-bot-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/telegram-mini-apps/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/telegram-mini-apps/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/telegram-mini-apps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/telegram-mini-apps/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/android-app-development/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/razrabotka-android-prilozheniy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/android-app-development/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/android-app-development/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/security-audit/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/audit-bezopasnosti/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/security-audit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/security-audit/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/services/support-and-improvements/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/uslugi/dorabotka-i-podderzhka/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/services/support-and-improvements/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/services/support-and-improvements/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/maison-lumi/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/maison-lumi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/maison-lumi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/maison-lumi/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/orbita-analytics/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/orbita-analytics/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/orbita-analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/orbita-analytics/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/fixpoint/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/fixpoint/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/fixpoint/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/fixpoint/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/forma/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/forma/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/forma/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/forma/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/severny-park/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/severny-park/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/severny-park/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/severny-park/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/fluent-club/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/fluent-club/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/fluent-club/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/fluent-club/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/portfolio/zerno/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/portfolio/zerno/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/portfolio/zerno/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/portfolio/zerno/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/blog/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/blog/website-development-cost/</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/website-development-cost/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/website-development-cost/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/uyazvimosti-telegram-botov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/blog/bot-mini-app-ili-sayt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/"/>
+  </url>
+  <url>
+    <loc>https://switchlab.dev/en/privacy/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://switchlab.dev/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://switchlab.dev/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://switchlab.dev/en/privacy/"/>
+  </url>
+</urlset>
