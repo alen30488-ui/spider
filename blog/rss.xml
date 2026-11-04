@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Блог Switch Lab — о разработке сайтов, Telegram-ботов и безопасности</title>
+<link>https://switchlab.dev/blog/</link>
+<description>Статьи о разработке сайтов, Telegram-ботов и Mini Apps: как выбрать формат, сколько стоит разработка и как защитить бота от взлома. Практика и цифры от команды Switch Lab.</description>
+<language>ru</language>
+<lastBuildDate>Wed, 04 Nov 2026 09:00:00 GMT</lastBuildDate>
+<atom:link href="https://switchlab.dev/blog/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>Сколько стоит Telegram-бот для бизнеса</title>
+<link>https://switchlab.dev/blog/skolko-stoit-telegram-bot/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/skolko-stoit-telegram-bot/</guid>
+<pubDate>Wed, 04 Nov 2026 09:00:00 GMT</pubDate>
+<description>Сколько стоит Telegram-бот под ключ: для заявок и FAQ — от 30 000 ₽, корпоративный — от 60 000 ₽, для продаж и записи — от 80 000 ₽, с CRM и админкой — от 150 000 ₽. Что влияет на цену, какие расходы будут после запуска и когда хватит конструктора.</description>
+<category>Telegram-боты</category>
+<category>цены</category>
+</item>
+<item>
+<title>Почему мы делаем Android-приложения на Unity</title>
+<link>https://switchlab.dev/blog/pochemu-unity/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/pochemu-unity/</guid>
+<pubDate>Mon, 02 Nov 2026 09:00:00 GMT</pubDate>
+<description>Почему мы разрабатываем Android-приложения на Unity: плавные анимации, 3D и игровые механики, одинаковый вид на всех устройствах и готовые SDK для Firebase и RuStore. Честно об ограничениях подхода и о том, как мы с ними работаем.</description>
+<category>Android-приложения</category>
+<category>Unity</category>
+</item>
+<item>
+<title>Что такое Telegram Mini App и зачем он бизнесу</title>
+<link>https://switchlab.dev/blog/chto-takoe-telegram-mini-app/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/chto-takoe-telegram-mini-app/</guid>
+<pubDate>Fri, 30 Oct 2026 09:00:00 GMT</pubDate>
+<description>Telegram Mini App — веб-приложение внутри Telegram, которое открывается без установки и регистрации. Рассказываем, как оно работает, что умеет — от оплаты до полноэкранного режима и геолокации, — какие задачи бизнеса решает, какие у него ограничения и сколько стоит разработка.</description>
+<category>Mini Apps</category>
+<category>Telegram-боты</category>
+</item>
+<item>
+<title>Сайт или бот не работает: что делать в первые 30 минут</title>
+<link>https://switchlab.dev/blog/sayt-ne-rabotaet-chto-delat/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/sayt-ne-rabotaet-chto-delat/</guid>
+<pubDate>Thu, 29 Oct 2026 09:00:00 GMT</pubDate>
+<description>Пошаговая инструкция на случай, если сайт не открывается или Telegram-бот перестал отвечать: как понять причину по тексту ошибки, что проверить самостоятельно — домен, сертификат, хостинг, — что сказать клиентам и разработчикам и как не допустить повторения.</description>
+<category>поддержка</category>
+<category>сайты</category>
+<category>Telegram-боты</category>
+</item>
+<item>
+<title>Сколько стоит разработка сайта и из чего складывается цена</title>
+<link>https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/skolko-stoit-razrabotka-sayta/</guid>
+<pubDate>Tue, 27 Oct 2026 09:00:00 GMT</pubDate>
+<description>Сколько стоит сайт под ключ: лендинг от 50 000 ₽, корпоративный сайт от 120 000 ₽, интернет-магазин от 250 000 ₽. Разбираем, из чего складывается цена, что её повышает, какие расходы ждут после запуска и как сэкономить.</description>
+<category>сайты</category>
+<category>цены</category>
+</item>
+<item>
+<title>Как привлечь пользователей в Telegram Mini App</title>
+<link>https://switchlab.dev/blog/kak-privlech-polzovateley-v-mini-app/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/kak-privlech-polzovateley-v-mini-app/</guid>
+<pubDate>Sun, 25 Oct 2026 09:00:00 GMT</pubDate>
+<description>Где брать пользователей для Telegram Mini App: собственный канал, главный Mini App в профиле бота, реклама в Telegram, посевы, реферальная программа и ссылки с метками. Как удерживать аудиторию и какие метрики считать.</description>
+<category>Mini Apps</category>
+<category>маркетинг</category>
+</item>
+<item>
+<title>Магазин в Telegram: как продавать через Mini App</title>
+<link>https://switchlab.dev/blog/magazin-v-telegram/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/magazin-v-telegram/</guid>
+<pubDate>Thu, 22 Oct 2026 09:00:00 GMT</pubDate>
+<description>Как работает интернет-магазин в Telegram на базе Mini App: каталог, корзина, оплата, доставка и уведомления о заказе. Чем он отличается от бота и сайта, какие интеграции нужны, откуда брать покупателей и сколько стоит запуск.</description>
+<category>Mini Apps</category>
+<category>Telegram-боты</category>
+<category>e-commerce</category>
+</item>
+<item>
+<title>7 частых уязвимостей Telegram-ботов и как их закрыть</title>
+<link>https://switchlab.dev/blog/uyazvimosti-telegram-botov/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/uyazvimosti-telegram-botov/</guid>
+<pubDate>Tue, 20 Oct 2026 09:00:00 GMT</pubDate>
+<description>Утечка токена, открытый вебхук, админка без проверки прав, подмена сумм оплаты и непроверенный initData в Mini App — разбираем 7 частых уязвимостей Telegram-ботов с примерами кода и чек-листом.</description>
+<category>безопасность</category>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+</item>
+<item>
+<title>Как передать сайт или бота новой команде и ничего не потерять</title>
+<link>https://switchlab.dev/blog/kak-peredat-proekt-novoy-komande/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/kak-peredat-proekt-novoy-komande/</guid>
+<pubDate>Sun, 18 Oct 2026 09:00:00 GMT</pubDate>
+<description>Что забрать у прежнего подрядчика при смене команды: доступы, исходный код, базы данных, токены, ключи подписи приложения и документацию. Чек-лист передачи проекта, юридические нюансы и как новая команда принимает чужой код без простоев.</description>
+<category>поддержка</category>
+<category>советы</category>
+</item>
+<item>
+<title>Telegram-бот для записи клиентов: как он работает и что умеет</title>
+<link>https://switchlab.dev/blog/telegram-bot-dlya-zapisi/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/telegram-bot-dlya-zapisi/</guid>
+<pubDate>Thu, 15 Oct 2026 09:00:00 GMT</pubDate>
+<description>Как устроен Telegram-бот для онлайн-записи в салон, сервисный центр, клинику или студию: выбор услуги, специалиста и времени, напоминания, перенос и отмена, предоплата и связь с CRM. Когда хватит бота, а когда для записи лучше Mini App.</description>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+<category>онлайн-запись</category>
+</item>
+<item>
+<title>Бот, Mini App или сайт — что выбрать для бизнеса</title>
+<link>https://switchlab.dev/blog/bot-mini-app-ili-sayt/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/bot-mini-app-ili-sayt/</guid>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<description>Сравниваем Telegram-бота, Mini App и сайт по задачам, цене, срокам и продвижению. Когда хватит бота, когда нужен Mini App, а когда без сайта не обойтись — таблица, примеры связок и чек-лист.</description>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+<category>сайты</category>
+</item>
+<item>
+<title>Как опубликовать приложение в Google Play и RuStore</title>
+<link>https://switchlab.dev/blog/publikaciya-v-google-play-i-rustore/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/publikaciya-v-google-play-i-rustore/</guid>
+<pubDate>Sat, 10 Oct 2026 09:00:00 GMT</pubDate>
+<description>Как опубликовать Android-приложение в Google Play и RuStore: аккаунт разработчика, закрытое тестирование, анкета о данных, подпись сборки, модерация и обновления. Чем отличаются магазины, что подготовить заранее и почему приложения отклоняют.</description>
+<category>Android-приложения</category>
+<category>Google Play</category>
+<category>RuStore</category>
+</item>
+<item>
+<title>Как принимать оплату в Telegram-боте</title>
+<link>https://switchlab.dev/blog/oplata-v-telegram-bote/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/oplata-v-telegram-bote/</guid>
+<pubDate>Thu, 08 Oct 2026 09:00:00 GMT</pubDate>
+<description>Какие способы оплаты можно подключить к Telegram-боту и Mini App: платёжные провайдеры вроде ЮKassa, Telegram Stars для цифровых товаров и внешние ссылки на оплату. Как устроен платёж, что с чеками по 54-ФЗ и каких ошибок избежать.</description>
+<category>Telegram-боты</category>
+<category>Mini Apps</category>
+<category>оплата</category>
+</item>
+<item>
+<title>Сколько стоит разработка Android-приложения</title>
+<link>https://switchlab.dev/blog/skolko-stoit-razrabotka-prilozheniya/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/skolko-stoit-razrabotka-prilozheniya/</guid>
+<pubDate>Tue, 06 Oct 2026 09:00:00 GMT</pubDate>
+<description>Сколько стоит Android-приложение под ключ: MVP от 300 000 ₽, приложение для сотрудников от 400 000 ₽, клиентское от 500 000 ₽, комплекс с админкой и API от 800 000 ₽. Разбираем, из чего складывается цена, что её повышает, какие расходы будут после релиза и как сэкономить.</description>
+<category>Android-приложения</category>
+<category>цены</category>
+</item>
+<item>
+<title>Как проходит аудит безопасности: этапы, сроки и отчёт</title>
+<link>https://switchlab.dev/blog/kak-prohodit-audit-bezopasnosti/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/kak-prohodit-audit-bezopasnosti/</guid>
+<pubDate>Sat, 03 Oct 2026 09:00:00 GMT</pubDate>
+<description>Что происходит во время аудита безопасности сайта, Telegram-бота или Mini App: согласование границ и доступов, разведка, автоматическое сканирование, ручная проверка логики, отчёт с уровнями риска по CVSS и повторная проверка после исправлений.</description>
+<category>безопасность</category>
+<category>аудит</category>
+</item>
+<item>
+<title>Как ускорить загрузку сайта: 10 шагов</title>
+<link>https://switchlab.dev/blog/skorost-zagruzki-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/skorost-zagruzki-sayta/</guid>
+<pubDate>Thu, 01 Oct 2026 09:00:00 GMT</pubDate>
+<description>Почему медленный сайт теряет клиентов и как его ускорить: что означают LCP, INP и CLS, как измерить скорость в PageSpeed Insights и какие 10 шагов дают самый заметный эффект — от изображений и шрифтов до кэширования и настройки сервера.</description>
+<category>сайты</category>
+<category>скорость</category>
+<category>SEO</category>
+</item>
+<item>
+<title>Чек-лист безопасности сайта: 15 пунктов для самопроверки</title>
+<link>https://switchlab.dev/blog/chek-list-bezopasnosti-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/chek-list-bezopasnosti-sayta/</guid>
+<pubDate>Tue, 29 Sep 2026 09:00:00 GMT</pubDate>
+<description>Простой чек-лист, чтобы проверить защиту сайта без специалиста: доступы и пароли, обновления, HTTPS, заголовки безопасности, формы, персональные данные, резервные копии и мониторинг. Что можно проверить за час и когда пора заказывать аудит.</description>
+<category>безопасность</category>
+<category>сайты</category>
+<category>поддержка</category>
+</item>
+<item>
+<title>Интеграция Telegram-бота с CRM: как это работает</title>
+<link>https://switchlab.dev/blog/integraciya-bota-s-crm/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/integraciya-bota-s-crm/</guid>
+<pubDate>Thu, 24 Sep 2026 09:00:00 GMT</pubDate>
+<description>Как связать Telegram-бота с CRM, чтобы заявки сразу попадали в воронку, а клиент получал статусы в чате без звонков. Что можно синхронизировать, как устроена интеграция с Битрикс24 и amoCRM, каких ошибок избежать и сколько это стоит.</description>
+<category>Telegram-боты</category>
+<category>интеграции</category>
+<category>CRM</category>
+</item>
+<item>
+<title>Техподдержка сайта: что входит и сколько стоит</title>
+<link>https://switchlab.dev/blog/tehpodderzhka-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/tehpodderzhka-sayta/</guid>
+<pubDate>Mon, 21 Sep 2026 09:00:00 GMT</pubDate>
+<description>Что входит в техническую поддержку сайта и Telegram-бота: мониторинг, резервные копии, обновления, исправление ошибок и доработки. Сравниваем разовые задачи и абонемент, объясняем, что такое SLA и сколько стоит поддержка.</description>
+<category>поддержка</category>
+<category>сайты</category>
+<category>Telegram-боты</category>
+</item>
+<item>
+<title>SEO при разработке сайта: что заложить до запуска</title>
+<link>https://switchlab.dev/blog/seo-pri-razrabotke-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/seo-pri-razrabotke-sayta/</guid>
+<pubDate>Thu, 17 Sep 2026 09:00:00 GMT</pubDate>
+<description>Какие SEO-задачи нужно решить ещё на этапе разработки, чтобы сайт хорошо индексировался в Яндексе и Google: структура и адреса страниц, мета-теги, скорость, мобильная версия, микроразметка, карта сайта и переезд со старого сайта без потери позиций.</description>
+<category>сайты</category>
+<category>SEO</category>
+</item>
+<item>
+<title>MVP мобильного приложения: как запустить первую версию за месяц</title>
+<link>https://switchlab.dev/blog/mvp-mobilnogo-prilozheniya/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/mvp-mobilnogo-prilozheniya/</guid>
+<pubDate>Tue, 15 Sep 2026 09:00:00 GMT</pubDate>
+<description>Что такое MVP приложения, как выбрать функции для первой версии и не потратить бюджет на лишнее, сколько стоит и сколько длится разработка, какие метрики смотреть после запуска и когда вместо приложения выгоднее начать с Telegram Mini App.</description>
+<category>Android-приложения</category>
+<category>Mini Apps</category>
+<category>стартапы</category>
+</item>
+<item>
+<title>Как составить ТЗ на разработку сайта: шаблон и примеры</title>
+<link>https://switchlab.dev/blog/tz-na-razrabotku-sayta/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/tz-na-razrabotku-sayta/</guid>
+<pubDate>Thu, 10 Sep 2026 09:00:00 GMT</pubDate>
+<description>Что написать в техническом задании на сайт, чтобы получить точную оценку и не платить за переделки: цели, аудитория, структура, функции, интеграции, контент и критерии приёмки. Шаблон ТЗ с примерами и типичные ошибки заказчиков.</description>
+<category>сайты</category>
+<category>советы</category>
+</item>
+<item>
+<title>OWASP Top 10 простыми словами: главные риски веб-приложений</title>
+<link>https://switchlab.dev/blog/owasp-top-10/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/owasp-top-10/</guid>
+<pubDate>Tue, 08 Sep 2026 09:00:00 GMT</pubDate>
+<description>Что такое OWASP Top 10 и почему по нему проверяют сайты, боты и Mini Apps. Разбираем десять категорий рисков редакции 2025 года на понятных примерах: что может пойти не так, чем это грозит бизнесу и как этого не допустить.</description>
+<category>безопасность</category>
+<category>сайты</category>
+</item>
+<item>
+<title>Лендинг или многостраничный сайт: что выбрать</title>
+<link>https://switchlab.dev/blog/lending-ili-mnogostranichnyy-sayt/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/lending-ili-mnogostranichnyy-sayt/</guid>
+<pubDate>Thu, 03 Sep 2026 09:00:00 GMT</pubDate>
+<description>Чем лендинг отличается от многостраничного сайта, когда хватит одной страницы, а когда нужна полноценная структура для поиска и рекламы. Сравниваем форматы по задачам, цене, срокам и продвижению и рассказываем, как вырасти из лендинга в сайт без переделки.</description>
+<category>сайты</category>
+<category>SEO</category>
+</item>
+<item>
+<title>Как выбрать подрядчика для разработки сайта или бота</title>
+<link>https://switchlab.dev/blog/kak-vybrat-podryadchika/</link>
+<guid isPermaLink="true">https://switchlab.dev/blog/kak-vybrat-podryadchika/</guid>
+<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+<description>Как выбрать студию или фрилансера для разработки сайта, Telegram-бота или приложения: что проверить в портфолио, какие вопросы задать на первой встрече, что должно быть в смете и договоре и по каким признакам понять, что с подрядчиком лучше не связываться.</description>
+<category>сайты</category>
+<category>Telegram-боты</category>
+<category>советы</category>
+</item>
+</channel>
+</rss>
