@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Switch Lab blog — websites, Telegram bots and security</title>
+<link>https://switchlab.dev/en/blog/</link>
+<description>Articles on building websites, Telegram bots and Mini Apps: how to choose a format, what development costs and how to protect a bot from attacks. Practical advice from the Switch Lab team.</description>
+<language>en</language>
+<lastBuildDate>Wed, 04 Nov 2026 09:00:00 GMT</lastBuildDate>
+<atom:link href="https://switchlab.dev/en/blog/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>How much does a Telegram bot for business cost</title>
+<link>https://switchlab.dev/en/blog/telegram-bot-cost/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-bot-cost/</guid>
+<pubDate>Wed, 04 Nov 2026 09:00:00 GMT</pubDate>
+<description>How much a turnkey Telegram bot costs: for requests and FAQs from ₽30,000, a corporate bot from ₽60,000, for sales and bookings from ₽80,000, with a CRM and admin panel from ₽150,000. What affects the price, which costs follow the launch and when a bot builder is enough.</description>
+<category>Telegram bots</category>
+<category>pricing</category>
+</item>
+<item>
+<title>Why we build Android apps with Unity</title>
+<link>https://switchlab.dev/en/blog/why-unity-for-android-apps/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/why-unity-for-android-apps/</guid>
+<pubDate>Mon, 02 Nov 2026 09:00:00 GMT</pubDate>
+<description>Why we develop Android apps with Unity: smooth animations, 3D and game mechanics, a consistent look on all devices and ready-made SDKs for Firebase and RuStore. An honest look at the limitations of this approach and how we deal with them.</description>
+<category>Android apps</category>
+<category>Unity</category>
+</item>
+<item>
+<title>What is a Telegram Mini App and why your business needs one</title>
+<link>https://switchlab.dev/en/blog/what-is-telegram-mini-app/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/what-is-telegram-mini-app/</guid>
+<pubDate>Fri, 30 Oct 2026 09:00:00 GMT</pubDate>
+<description>A Telegram Mini App is a web app inside Telegram that opens without installation or registration. We explain how it works, what it can do — from payments to full-screen mode and geolocation — which business tasks it solves, what its limitations are and how much development costs.</description>
+<category>Mini Apps</category>
+<category>Telegram bots</category>
+</item>
+<item>
+<title>Website or bot down: what to do in the first 30 minutes</title>
+<link>https://switchlab.dev/en/blog/website-down-what-to-do/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/website-down-what-to-do/</guid>
+<pubDate>Thu, 29 Oct 2026 09:00:00 GMT</pubDate>
+<description>A step-by-step guide for when your website does not open or your Telegram bot stops responding: how to find the cause from the error message, what to check yourself — domain, certificate, hosting — what to tell customers and developers and how to prevent it from happening again.</description>
+<category>support</category>
+<category>websites</category>
+<category>Telegram bots</category>
+</item>
+<item>
+<title>How much does website development cost and what drives the price</title>
+<link>https://switchlab.dev/en/blog/website-development-cost/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/website-development-cost/</guid>
+<pubDate>Tue, 27 Oct 2026 09:00:00 GMT</pubDate>
+<description>How much a turnkey website costs: a landing page from ₽50,000, a corporate website from ₽120,000, an online store from ₽250,000. What the price consists of, what makes it higher, what costs follow the launch and how to save.</description>
+<category>websites</category>
+<category>pricing</category>
+</item>
+<item>
+<title>How to attract users to a Telegram Mini App</title>
+<link>https://switchlab.dev/en/blog/telegram-mini-app-promotion/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-mini-app-promotion/</guid>
+<pubDate>Sun, 25 Oct 2026 09:00:00 GMT</pubDate>
+<description>Where to get users for a Telegram Mini App: your own channel, the main Mini App in the bot profile, Telegram ads, sponsored posts, a referral program and tagged links. How to retain your audience and which metrics to track.</description>
+<category>Mini Apps</category>
+<category>marketing</category>
+</item>
+<item>
+<title>A store in Telegram: how to sell through a Mini App</title>
+<link>https://switchlab.dev/en/blog/telegram-store-mini-app/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-store-mini-app/</guid>
+<pubDate>Thu, 22 Oct 2026 09:00:00 GMT</pubDate>
+<description>How an online store in Telegram based on a Mini App works: catalog, cart, payment, delivery and order notifications. How it differs from a bot and a website, which integrations you need, where to find buyers and how much a launch costs.</description>
+<category>Mini Apps</category>
+<category>Telegram bots</category>
+<category>e-commerce</category>
+</item>
+<item>
+<title>7 common Telegram bot vulnerabilities and how to fix them</title>
+<link>https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-bot-vulnerabilities/</guid>
+<pubDate>Tue, 20 Oct 2026 09:00:00 GMT</pubDate>
+<description>A leaked token, an open webhook, admin commands without checks, tampered payment amounts and unverified initData in Mini Apps — the 7 most common Telegram bot vulnerabilities with code examples and a checklist.</description>
+<category>security</category>
+<category>Telegram bots</category>
+<category>Mini Apps</category>
+</item>
+<item>
+<title>How to hand over a website or bot to a new team without losing anything</title>
+<link>https://switchlab.dev/en/blog/project-handover/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/project-handover/</guid>
+<pubDate>Sun, 18 Oct 2026 09:00:00 GMT</pubDate>
+<description>What to get from your previous contractor when changing teams: access, source code, databases, tokens, app signing keys and documentation. A project handover checklist, legal nuances and how a new team takes over someone else's code without downtime.</description>
+<category>support</category>
+<category>tips</category>
+</item>
+<item>
+<title>Telegram booking bot: how it works and what it can do</title>
+<link>https://switchlab.dev/en/blog/telegram-booking-bot/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-booking-bot/</guid>
+<pubDate>Thu, 15 Oct 2026 09:00:00 GMT</pubDate>
+<description>How a Telegram bot for online booking at a salon, service center, clinic or studio works: choosing a service, specialist and time, reminders, rescheduling and cancellation, prepayment and CRM integration. When a bot is enough and when a Mini App is better for bookings.</description>
+<category>Telegram bots</category>
+<category>Mini Apps</category>
+<category>online booking</category>
+</item>
+<item>
+<title>Bot, Mini App or website — which one does your business need?</title>
+<link>https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/bot-vs-mini-app-vs-website/</guid>
+<pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+<description>We compare a Telegram bot, a Telegram Mini App and a website by use case, price, timeline and discoverability. When a bot is enough, when you need a Mini App and when a website is a must — with a table, proven combinations and a checklist.</description>
+<category>Telegram bots</category>
+<category>Mini Apps</category>
+<category>websites</category>
+</item>
+<item>
+<title>How to publish an app on Google Play and RuStore</title>
+<link>https://switchlab.dev/en/blog/publish-app-google-play-rustore/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/publish-app-google-play-rustore/</guid>
+<pubDate>Sat, 10 Oct 2026 09:00:00 GMT</pubDate>
+<description>How to publish an Android app on Google Play and RuStore: a developer account, closed testing, the data safety form, build signing, review and updates. How the stores differ, what to prepare in advance and why apps get rejected.</description>
+<category>Android apps</category>
+<category>Google Play</category>
+<category>RuStore</category>
+</item>
+<item>
+<title>How to accept payments in a Telegram bot</title>
+<link>https://switchlab.dev/en/blog/telegram-bot-payments/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-bot-payments/</guid>
+<pubDate>Thu, 08 Oct 2026 09:00:00 GMT</pubDate>
+<description>Which payment methods can be connected to a Telegram bot or Mini App: payment providers such as YooKassa, Telegram Stars for digital goods and external payment links. How a payment works, what to do about receipts under 54-FZ and which mistakes to avoid.</description>
+<category>Telegram bots</category>
+<category>Mini Apps</category>
+<category>payments</category>
+</item>
+<item>
+<title>How much does Android app development cost</title>
+<link>https://switchlab.dev/en/blog/android-app-development-cost/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/android-app-development-cost/</guid>
+<pubDate>Tue, 06 Oct 2026 09:00:00 GMT</pubDate>
+<description>How much a turnkey Android app costs: an MVP from ₽300,000, an app for employees from ₽400,000, a customer app from ₽500,000, a complete system with an admin panel and API from ₽800,000. What the price consists of, what makes it higher, which costs follow the release and how to save.</description>
+<category>Android apps</category>
+<category>pricing</category>
+</item>
+<item>
+<title>How a security audit works: stages, timelines and the report</title>
+<link>https://switchlab.dev/en/blog/security-audit-process/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/security-audit-process/</guid>
+<pubDate>Sat, 03 Oct 2026 09:00:00 GMT</pubDate>
+<description>What happens during a security audit of a website, Telegram bot or Mini App: agreeing on scope and access, reconnaissance, automated scanning, manual logic testing, a report with CVSS risk levels and a re-check after fixes.</description>
+<category>security</category>
+<category>audit</category>
+</item>
+<item>
+<title>How to speed up your website: 10 steps</title>
+<link>https://switchlab.dev/en/blog/speed-up-your-website/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/speed-up-your-website/</guid>
+<pubDate>Thu, 01 Oct 2026 09:00:00 GMT</pubDate>
+<description>Why a slow website loses customers and how to speed it up: what LCP, INP and CLS mean, how to measure speed with PageSpeed Insights and which 10 steps have the most noticeable effect — from images and fonts to caching and server configuration.</description>
+<category>websites</category>
+<category>speed</category>
+<category>SEO</category>
+</item>
+<item>
+<title>Website security checklist: 15 points to check yourself</title>
+<link>https://switchlab.dev/en/blog/website-security-checklist/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/website-security-checklist/</guid>
+<pubDate>Tue, 29 Sep 2026 09:00:00 GMT</pubDate>
+<description>A simple checklist for checking your website's protection without a specialist: access and passwords, updates, HTTPS, security headers, forms, personal data, backups and monitoring. What you can check in an hour and when it is time to order an audit.</description>
+<category>security</category>
+<category>websites</category>
+<category>support</category>
+</item>
+<item>
+<title>Telegram bot and CRM integration: how it works</title>
+<link>https://switchlab.dev/en/blog/telegram-bot-crm-integration/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/telegram-bot-crm-integration/</guid>
+<pubDate>Thu, 24 Sep 2026 09:00:00 GMT</pubDate>
+<description>How to connect a Telegram bot to a CRM so that requests go straight into the sales pipeline and customers get status updates in the chat without calling. What can be synchronized, how integration with Bitrix24 and amoCRM works, which mistakes to avoid and how much it costs.</description>
+<category>Telegram bots</category>
+<category>integrations</category>
+<category>CRM</category>
+</item>
+<item>
+<title>Website support: what is included and how much it costs</title>
+<link>https://switchlab.dev/en/blog/website-support/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/website-support/</guid>
+<pubDate>Mon, 21 Sep 2026 09:00:00 GMT</pubDate>
+<description>What technical support for a website or Telegram bot includes: monitoring, backups, updates, bug fixes and improvements. We compare one-off tasks with a monthly plan, explain what an SLA is and how much support costs.</description>
+<category>support</category>
+<category>websites</category>
+<category>Telegram bots</category>
+</item>
+<item>
+<title>SEO during website development: what to build in before launch</title>
+<link>https://switchlab.dev/en/blog/seo-during-website-development/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/seo-during-website-development/</guid>
+<pubDate>Thu, 17 Sep 2026 09:00:00 GMT</pubDate>
+<description>Which SEO tasks need to be solved at the development stage so that the website is indexed well by Google and Yandex: page structure and URLs, meta tags, speed, the mobile version, structured data, the sitemap and moving from an old website without losing rankings.</description>
+<category>websites</category>
+<category>SEO</category>
+</item>
+<item>
+<title>Mobile app MVP: how to launch the first version in a month</title>
+<link>https://switchlab.dev/en/blog/mobile-app-mvp/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/mobile-app-mvp/</guid>
+<pubDate>Tue, 15 Sep 2026 09:00:00 GMT</pubDate>
+<description>What an app MVP is, how to choose features for the first version without wasting the budget on extras, how much development costs and how long it takes, which metrics to track after launch and when it pays to start with a Telegram Mini App instead of an app.</description>
+<category>Android apps</category>
+<category>Mini Apps</category>
+<category>startups</category>
+</item>
+<item>
+<title>How to write a website specification: template and examples</title>
+<link>https://switchlab.dev/en/blog/website-specification-template/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/website-specification-template/</guid>
+<pubDate>Thu, 10 Sep 2026 09:00:00 GMT</pubDate>
+<description>What to put in a website specification to get an accurate estimate and avoid paying for rework: goals, audience, structure, features, integrations, content and acceptance criteria. A specification template with examples and common client mistakes.</description>
+<category>websites</category>
+<category>tips</category>
+</item>
+<item>
+<title>OWASP Top 10 in plain words: the main web application risks</title>
+<link>https://switchlab.dev/en/blog/owasp-top-10/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/owasp-top-10/</guid>
+<pubDate>Tue, 08 Sep 2026 09:00:00 GMT</pubDate>
+<description>What the OWASP Top 10 is and why websites, bots and Mini Apps are checked against it. We go through the ten risk categories of the 2025 edition with clear examples: what can go wrong, what it means for the business and how to prevent it.</description>
+<category>security</category>
+<category>websites</category>
+</item>
+<item>
+<title>Landing page or multi-page website: which to choose</title>
+<link>https://switchlab.dev/en/blog/landing-page-vs-multi-page-website/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/landing-page-vs-multi-page-website/</guid>
+<pubDate>Thu, 03 Sep 2026 09:00:00 GMT</pubDate>
+<description>How a landing page differs from a multi-page website, when one page is enough and when you need a full structure for search and ads. We compare the formats by task, price, timeline and promotion, and explain how to grow from a landing page into a website without rebuilding it.</description>
+<category>websites</category>
+<category>SEO</category>
+</item>
+<item>
+<title>How to choose a contractor to build your website or bot</title>
+<link>https://switchlab.dev/en/blog/how-to-choose-a-contractor/</link>
+<guid isPermaLink="true">https://switchlab.dev/en/blog/how-to-choose-a-contractor/</guid>
+<pubDate>Tue, 01 Sep 2026 09:00:00 GMT</pubDate>
+<description>How to choose a studio or freelancer to build a website, Telegram bot or app: what to check in the portfolio, which questions to ask at the first meeting, what the estimate and contract should include, and the signs that tell you to walk away.</description>
+<category>websites</category>
+<category>Telegram bots</category>
+<category>tips</category>
+</item>
+</channel>
+</rss>
